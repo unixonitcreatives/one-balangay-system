@@ -1,10 +1,14 @@
+<!DOCTYPE html>
+<html>
 <?php $title = "Admin | Dashboard"; ?>
-<?php $subTitle = "UNIXON"; ?>
+<?php $subTitle = "BIMO"; ?>
+<?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
 
-
-<?php include "../template/header.php";?>
+<head>
+	<title><?php echo $title;?></title>
+	<?php include "../template/header.php";?>
+</head>
 <?php include "../template/menu.php";?>
-<?php include "../template/logo.php";?>
 
 <body class="hold-transition sidebar-mini layout-fixed">
 	<div class="wrapper">
@@ -17,7 +21,7 @@
 		  	    <!-- Content Header (Page header) -->
 			    <div class="content-header">
 			      <div class="container-fluid">
-			        <div class="row mb-2">
+				        <div class="row mb-2">
 			          <div class="col-sm-6">
 			            <h1 class="m-0">Dashboard</h1>
 			          </div><!-- /.col -->
@@ -33,8 +37,6 @@
 			    <!-- /.content-header -->
 		  </div>
 
-		  <div class="content-wrapper">
-		  </div>
 
 
 	</div>
@@ -44,3 +46,4 @@
 <?php include "../template/script.php";?>
 <?php include "../template/css.php";?>
 <?php include "../template/footer.php";?>
+</html>

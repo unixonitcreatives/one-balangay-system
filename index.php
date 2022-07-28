@@ -1,6 +1,6 @@
-<?php include "template/header.php";?> <br>
-<?php include "template/menu.php";?> <br>
-<?php include "template/logo.php";?> <br>
-<?php include "template/script.php";?> <br>
-<?php include "template/css.php";?> <br>
+<?php include "template/header.php";?>
+<?php include "template/menu.php";?>
+<?php include "template/logo.php";?>
+<?php include "template/script.php";?>
+<?php include "template/css.php";?>
 <?php include "template/footer.php";?>

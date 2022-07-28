@@ -6,7 +6,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -29,7 +29,7 @@
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
 
         <div class="info">
-          <a href="" class="d-block">Calamba City, Laguna</a>
+          <a href="" class="d-block">Brgy. 46, Pasay City</a>
         </div>
       </div>
 
@@ -50,7 +50,7 @@
 
 
             <li class="nav-item">
-                <a href="pages/widgets.html" class="nav-link">
+                <a href="resident.php" class="nav-link">
                   <i class="nav-icon fas fa-users"></i>
                   <p>
                     Residents
@@ -60,11 +60,13 @@
             </li>
 
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="household.php" class="nav-link">
               <i class="nav-icon fas fa-home"></i>
               <i class="nav-icon fa-solid fa-burger"></i>
               <p>
-                Families
+                Households
+
+
                 <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
@@ -95,6 +97,16 @@
               <i class="nav-icon fas fa-building"></i>
               <p>
                 Properties
+                <!-- <span class="right badge badge-danger">New</span> -->
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="pages/widgets.html" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>
+                Summary
                 <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
