@@ -39,7 +39,7 @@
             <div class="container-fluid">
               <div class="row mb-2">
                 <div class="col-sm-6">
-                  <h1 class="m-0">Residents</h1>
+                  <h1 class="m-0">Resident Profile</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                   <ol class="breadcrumb float-sm-right">
@@ -53,137 +53,388 @@
           <!-- /.content-header -->
         </section>
 
-        <section class="content">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <div class="card-header">
-                           <a type="button" class="btn btn-success float-right" href="add-resident.php"><i class="fa fa-user-plus"></i>&nbsp;Add new resident</a>
+        <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+
+            <!-- Profile Image -->
+            <div class="card card-primary card-outline">
+              <div class="card-body box-profile">
+                <div class="text-center">
+                  <img class="profile-user-img img-fluid img-circle"
+                       src="../dist/img/default-150x150.png"
+                       alt="User profile picture">
+                </div>
+
+                <h3 class="profile-username text-center">Juan Dela Cruz</h3>
+
+                <p class="text-muted text-center">RES-002341</p>
+
+                <ul class="list-group list-group-unbordered mb-3">
+                  <li class="list-group-item">
+                    <b>National ID</b> <a class="float-right">3412 3412 8694 2145</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Family ID</b> <a class="float-right">FN-01</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Social Media</b> <a class="float-right">@juandelacruz</a>
+                  </li>
+                </ul>
+
+                <a href="#" class="btn btn-primary btn-block"><b><i class="fa fa-edit"></i>     Edit Profile</b></a>
+
+                <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#modal-default">
+                <b><i class="fa fa-file"></i> Print Certificate</b></a>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+          </div>
+          <!-- /.col -->
+          <div class="col-md-9">
+            
+            <div class="col-md-12">
+                      <div class="card card-default">
+                        <div class="card-header">
+                        <h5><i class="fa fa-info-circle"></i> Personal Information</h5>
+                        </div>
+
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-3">
+                            <label>NATIONAL ID</label>
+                            <input class="form-control"type="text" placeholder="" value="3412 3412 8694 2145">
+                            </div>
+                            <div class="col-3">
+                            <div class="form-group">  
+                                <label>HEAD</label>
+                                <select class="form-control select2" name="" value="">
+                                  <option value="">YES</option>
+                                  <option value="">NO</option>
+                                  
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                            <label>FAMILY ID</label>
+                            <input class="form-control"type="text" placeholder="" value="FN-01">
+                            </div>
+                            <div class="col-3">
+                            <label>SOCIAL MEDIA LINK</label>
+                            <input class="form-control"type="text" placeholder="" value="@juandelacruz">
+                            </div>
+                          </div>
+                          <!------------><br>
+                          <div class="row">
+                            <div class="col-4">
+                            <label>FIRST NAME</label><code>*</code>
+                            <input class="form-control"type="text" placeholder="" value="Juan">
+                            </div>
+                            <div class="col-4">
+                            <label>MIDDLE NAME</label><code>*</code>
+                            <input class="form-control"type="text" placeholder="" value="Santos">
+                            </div>
+                            <div class="col-4">
+                            <label>LAST NAME</label><code>*</code>
+                            <input class="form-control"type="text" placeholder="" value="Dela Cruz">
+                            </div>
+                          </div>
+                          <!------------><br>
+                          <div class="row">
+                            <div class="col-2">
+                            <label>BIRTHDATE</label> <i>mm/dd/yyy</i><code>*</code>
+                              <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                                  <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" value="01/01/2000"/>
+                                  <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                                      <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                            <label>AGE</label><code>*</code>
+                            <input class="form-control"type="text" placeholder="" value="22" disabled>
+                            </div>
+                            <div class="col-8">
+                            <label>PLACE OF BIRTH</label><code>*</code>
+                            <input class="form-control"type="text" placeholder="" value="Manila">
+                            </div>
+                          </div>
+                          <!------------><br>
+                          <div class="row">
+                            <div class="col-2">
+                              <div class="form-group">  
+                                <label>GENDER</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value="Male">Male</option>
+                                  <option value="Female">Female</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="form-group">  
+                                <label>CIVIL STATUS</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value="">Single</option>
+                                  <option value="">Married</option>
+                                  <option value="">Widowed</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                              <div class="form-group">  
+                                <label>NATIONALITY</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value="">Filipino</option>
+                                  <option value="">American</option>
+                                  <option value="">Others</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-2">
+                              <div class="form-group">  
+                                <label>RELIGION</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value="">Catholic</option>
+                                  <option value="">Muslim</option>
+                                  <option value="">None</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                              <div class="form-group">  
+                                <label>EDUCATIONAL ATTAINMENT</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value="">Bachelor's Degree</option>
+                                  <option value="">Elementary</option>
+                                  <option value="">Secondary</option>
+                                  <option value="">Vocational</option>
+                                  <option value="">Master's Degree</option>
+                                  <option value="">PHD Degree</option>
+                                  <option value="">None</option>
+                                </select>
+                              </div>
+                            </div>
+                            </div>
+                            <!------------>
+                            <div class="row">
+                              <div class="col-4">
+                                <div class="form-group">  
+                                  <label>EMPLOYMENT STATUS</label><code>*</code>
+                                  <select class="form-control select2" name="">
+                                    <option value="">Employed</option>
+                                    <option value="">Unemployed</option>
+                                    
+                                    <option value="">Business Owner</option>
+                                  </select>
+                                </div>
+                              </div>
+
+                              <div class="col-4">
+                              <label>PRESENT JOBS</label>
+                              <input class="form-control"type="text" placeholder="">
+                              </div>
+
+                              <div class="col-4">
+                              <div class="form-group">  
+                                <label>VOTER STATUS</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value="">Registered</option>
+                                  <option value="">Unregistered</option>
+                                 
+                                </select>
+                              </div>
+                              </div>
+                              </div>
+                              <!------------>
+                              <div class="row">
+                                <div class="col-4">
+                                <label>VOTER's ID | (PRECINT NUMBER)</label>
+                                <input class="form-control"type="text" placeholder="" value="7501-00191-C145BCD">
+                                </div>
+
+                                <div class="col-2">
+                                <div class="form-group">  
+                                  <label>PWD</label><code>*</code>
+                                  <select class="form-control select2" name="">
+                                    <option value="">NO</option>
+                                    <option value="">YES</option>
+                                  </select>
+                                </div>
+                                </div>
+
+                                <div class="col-2">
+                                <div class="form-group">  
+                                  <label>4P's</label><code>*</code>
+                                  <select class="form-control select2" name="">
+                                    <option value="">NO</option>
+                                    <option value="">YES</option>
+                                  </select>
+                                </div>
+                                </div>
+
+                                <div class="col-4">
+                                <div class="form-group">  
+                                  <label>BLOOD TYPE</label><code>*</code>
+                                  <select class="form-control select2" name="">
+                                    <option value="">O</option>
+                                    <option value="">A</option>
+                                    <option value="">B</option>
+                                    <option value="">AB</option>
+                                    <option value="">NA</option>
+                                  </select>
+                                </div>
+                                </div>
+                              </div>
+                              <!------------>
+                              <div class="row">
+                                <div class="col-4">
+                                <div class="form-group">  
+                                  <label>YOUTH MEMBER</label>
+                                  <select class="form-control select2" name="">
+                                    <option value="">NO</option>
+                                    <option value="">YES</option>
+                                  </select>
+                                </div>
+                                </div>
+                                <div class="col-2">
+                                <div class="form-group">  
+                                  <label>SK VOTER</label>
+                                  <select class="form-control select2" name="">
+                                    <option value="">NO</option>
+                                    <option value="">YES</option>
+                                  </select>
+                                </div>
+                                </div>
+
+                                <div class="col-2">
+                                <label>SALARY/MONTH</label>
+                                <input class="form-control" type="number" placeholder="" value="45000">
+                                </div>
+
+                                <div class="col-2">
+                                <div class="form-group">  
+                                  <label>MORAL</label>
+                                  <select class="form-control select2" name="">
+                                    <option value="">NO</option>
+                                    <option value="">YES</option>
+                                  </select>
+                                </div>
+                                </div>
+
+                                <div class="col-2">
+                                <label>TAGS</label>
+                                <input class="form-control"type="text" placeholder="">
+                                </div>
+
+                              </div>
+                              <!------------>
+                        </div>
+                      </div>
+                    </div>
+
+            <div class="col-md-12">
+                      <div class="card card-default">
+                        <div class="card-header">
+                        <h5><i class="fa fa-home"></i> Residency Permanent Address</h5>
                         </div>
                         <div class="card-body">
-                            <table id="example1" class="table table-striped table-head-fixed">
-                                <thead>
-                                <tr>
-                                  <th>(Code) Full Name</th>
-                                  <th>Home Address</th>
-                                  <th>Employment Status</th>
-                                  <th>Voter Registration</th>
-                                  <th>Contact No</th>
-                                  <th>Residency</th>
-                                  <th>Moral</th>
-                                  <th>Tags</th>
-                                  <th>Action</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                  <td><b>(RES-002341)</b> Dela Cruz, Juan
-                                  </td>
-                                  <td>Blk 4 Lot 5 Tramo St.</td>
-                                  <td>Employed</td>
-                                  <td>Registered</td>
-                                  <td>09123456789</td>
-                                  <td>Permanent</td>
-                                  <td></td>
-                                  <td></td>
-                                  <td>
-                                    <a type="button" title="View Resident" class="btn-sm btn-primary" href="view-resident.php"><i class="fa fa-search"></i></a>
-                                    <a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-                                    <a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
-                                  </td>
-                                </tr>
+             
+                            <div class="row">
+                              <div class="col-6">
+                                <label>HOME ADDRESS</label><code>*</code>
+                                <input class="form-control"type="text" placeholder="" value="Blk 4 Lot 5 Tramo St.">
+                              </div>
+                              <div class="col-6">
+                                <div class="form-group">  
+                                  <label>AREA / PUROK / SITIO Etc</label><code>*</code>
+                                  <select class="form-control select2" name="">
+                                    <option value="">Purok 1</option>
+                                    <option value="">Purok 2</option>
+                                    <option value="">Purok 3</option>
+                                    <option value="">Purok 4</option>
+                                    <option value="">Purok 5</option>
+                                    <option value="">Purok 6</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <!-------><br>
+                            <div class="row">
+                              <div class="col-6">
+                                <label>BARANGAY</label><code>*</code>
+                                <input class="form-control"type="text" placeholder="This Barangay" disabled>
+                              </div>
+                              <div class="col-6">
+                                <label>CITY / MUNICIPALITY / PROVINCE</label><code>*</code>
+                                <input class="form-control"type="text" placeholder="This City/Municipality/Province" disabled>
+                              </div>
+                            </div>
+                            <!-------><br>
+                            <div class="row">
+                              <div class="col-6">
+                                <div class="form-group">  
+                                  <label>RESIDENCY STATUS</label><code>*</code>
+                                  <select class="form-control select2" name="">
+                                    <option value="">Permanent</option>
+                                    <option value="">Temporary</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-6">
+                                <label>RESIDENCE SINCE</label> <i>mm/dd/yyyy</i><code>*</code>
+                                <div class="input-group date" id="residencesince" data-target-input="nearest">
+                                  <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
+                                  <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
+                                      <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                  </div>
+                              </div>
+                              </div>
+                            </div>
 
-                                <tr>
-                                  <td><b>(RES-005423)</b> Marcos, Ferdinand
-                                  </td>
-                                  <td>Blk 6 Lot 3 Tramo St.</td>
-                                  <td>Employed</td>
-                                  <td>Registered</td>
-                                  <td>09123456789</td>
-                                  <td>Permanent</td>
-                                  <td></td>
-                                  <td></td>
-                                  <td>
-                                    <a type="button" title="View Resident" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-                                    <a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-                                    <a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
-                                  </td>
-                                </tr>
-
-                                <tr>
-                                  <td><b>(RES-002341)</b> Dela Cruz, Miguel
-                                  </td>
-                                  <td>Blk 4 Lot 5 Tramo St.</td>
-                                  <td>Unemployed</td>
-                                  <td>Unregistered</td>
-                                  <td>09124228759</td>
-                                  <td>Permanent</td>
-                                  <td></td>
-                                  <td></td>
-                                  <td>
-                                    <a type="button" title="View Resident" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-                                    <a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-                                    <a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
-                                  </td>
-                                </tr>
-
-                                <tr>
-                                  <td><b>(RES-007522)</b> Duterte, Sarah
-                                  </td>
-                                  <td>Blk 4 Lot 13 Tramo St.</td>
-                                  <td>Employed</td>
-                                  <td>Registered</td>
-                                  <td>09124264889</td>
-                                  <td>Temporary</td>
-                                  <td></td>
-                                  <td></td>
-                                  <td>
-                                    <a type="button" title="View Resident" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-                                    <a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-                                    <a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
-                                  </td>
-                                </tr>
-
-                                <tr>
-                                  <td><b>(RES-002341)</b> Penduko, Pedro
-                                  </td>
-                                  <td>Blk 5 Lot 1 Tramo St.</td>
-                                  <td>Unemployed</td>
-                                  <td>Unegistered</td>
-                                  <td>09122375524</td>
-                                  <td>Temporary</td>
-                                  <td>Pending Case</td>
-                                  <td>Theft</td>
-                                  <td>
-                                    <a type="button" title="View Resident" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-                                    <a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-                                    <a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
-                                  </td>
-                                </tr>
-                               
-
-                                
-                                </tbody>
-                                <!-- <tfoot>
-                                <tr>
-                                  <th>Rendering engine</th>
-                                  <th>Browser</th>
-                                  <th>Platform(s)</th>
-                                  <th>Engine version</th>
-                                  <th>CSS grade</th>
-                                </tr>
-                                </tfoot> -->
-                              </table>
-
+                
+                          
                         </div>
-                </div>
-              </div>
-            </div>
-            
+                      </div>
+                    </div>
+
+                    <div class="col-md-12">
+                      <div class="card card-default">
+                        <div class="card-header">
+                        <h5><i class="fa fa-phone"></i> Emergency Contact</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                              <div class="col-4">
+                                <label>EMERGENCY CONTACT PERSON FULL NAME</label>
+                                <input class="form-control"type="text" placeholder="" value="Juana Dela Cruz">
+                              </div>
+                              <div class="col-4">
+                                <label>CONTACT NO</label>
+                                <input class="form-control"type="text" placeholder="" value="09224567890">
+                              </div>
+                              <div class="col-4">
+                                <label>HOME ADDRESS</label>
+                                <input class="form-control"type="text" placeholder="" value="Blk 4 Lot 5 Tramo St.">
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+
+
+
+
+
           </div>
-          
-        </section>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
       </div>
 
   <?php include "../template/footer.php";?>
@@ -586,6 +837,243 @@
   }
   // DropzoneJS Demo Code End
 </script>
+
+
+<div class="modal fade" id="modal-default">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+
+            <div class="modal-header">
+              <h4 class="modal-title">PRINT BRGY CERTIFICATE</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                
+                <div class="card">
+                  <div class="card-body">
+
+                    <ul class="nav nav-tabs" id="custom-content-below-tab" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="brgyclearance" data-toggle="pill" href="#custom-content-below-home" role="tab" aria-controls="custom-content-below-home" aria-selected="true">BARANGAY CLEARANCE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="custom-content-below-profile-tab" data-toggle="pill" href="#custom-content-below-profile" role="tab" aria-controls="custom-content-below-profile" aria-selected="false">INDIGENCY & OTHERS</a>
+                      </li>
+                    </ul>
+
+                    <div class="tab-content" id="custom-content-below-tabContent">
+                        <div class="tab-pane fade show active" id="custom-content-below-home" role="tabpanel" aria-labelledby="custom-content-below-home-tab">
+                                        <br>  
+                                        <div class="row">
+                                          <div class="col-12">
+                                            <label>RESIDENT</label><code>*</code>
+                                            <input class="form-control"type="text" placeholder="" value="(RES-002341) Dela Cruz, Juan" disabled>
+                                          </div>
+                                        </div>
+
+                            
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>PURPOSE</label><code>*</code>
+                                          <input class="form-control"type="text" placeholder="">
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>CERTIFICATE NO.</label><code>*</code>
+                                          <input class="form-control"type="text" placeholder="">
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>CTC ISSUED ON</label> <i>mm/dd/yyy</i><code>*</code>
+                                            <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                                                <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
+                                                <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>CTC ISSUED AT</label><code>*</code>
+                                          <input class="form-control" type="text" placeholder="">
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>AMOUNT</label><code>*</code>
+                                          <input class="form-control" type="number" placeholder="">
+                                          </div>
+                                        </div>
+
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>OFFICIAL RECEIPT NO</label><code>*</code>
+                                          <input class="form-control" type="number" placeholder="">
+                                          </div>
+                                        </div>
+
+                                        <div class="row">
+                                        <div class="col-6">
+                                          <div class="form-group">  
+                                            <label>MODE OF PAYMENT</label><code>*</code>
+                                            <select class="form-control select2" name="">
+                                              <option value="">CASH</option>
+                                              <option value="">BANK</option>
+                                              <option value="">GCASH</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>REFERENCE NO</label><code>*</code>
+                                          <input class="form-control" type="text" placeholder="">
+                                          </div>
+                                        </div>
+
+
+
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>ISSUED ON</label><code>*</code>
+                                          <input class="form-control" type="text" placeholder="" value="07/28/2022 10:34" disabled>
+                                          </div>
+                                        </div>
+
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>ISSUED AT</label><code>*</code>
+                                          <input class="form-control" type="text" placeholder="" value="This Brgy." disabled>
+                                          </div>
+                                        </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="custom-content-below-profile" role="tabpanel" aria-labelledby="custom-content-below-profile-tab">
+                                        <br>  
+                                        <div class="row">
+                                          <div class="col-12">
+                                            <label>RESIDENT</label><code>*</code>
+                                            <input class="form-control"type="text" placeholder="" value="(RES-002341) Dela Cruz, Juan" disabled>
+                                          </div>
+                                        </div>
+
+                            
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>PURPOSE/REQUESTED BY</label><code>*</code>
+                                          <input class="form-control"type="text" placeholder="">
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>CERTIFICATE NO.</label><code>*</code>
+                                          <input class="form-control"type="text" placeholder="">
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>CTC ISSUED ON</label> <i>mm/dd/yyy</i><code>*</code>
+                                            <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                                                <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
+                                                <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>CTC ISSUED AT</label><code>*</code>
+                                          <input class="form-control" type="text" placeholder="">
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>AMOUNT</label><code>*</code>
+                                          <input class="form-control" type="number" placeholder="">
+                                          </div>
+                                        </div>
+
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>OFFICIAL RECEIPT NO</label><code>*</code>
+                                          <input class="form-control" type="number" placeholder="">
+                                          </div>
+                                        </div>
+
+                                        <div class="row">
+                                        <div class="col-6">
+                                          <div class="form-group">  
+                                            <label>MODE OF PAYMENT</label><code>*</code>
+                                            <select class="form-control select2" name="">
+                                              <option value="">CASH</option>
+                                              <option value="">BANK</option>
+                                              <option value="">GCASH</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>REFERENCE NO</label><code>*</code>
+                                          <input class="form-control" type="text" placeholder="">
+                                          </div>
+                                        </div>
+
+
+
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>ISSUED ON</label><code>*</code>
+                                          <input class="form-control" type="text" placeholder="" value="07/28/2022 10:34" disabled>
+                                          </div>
+                                        </div>
+
+                                        <div class="row">
+                                          <div class="col-12">
+                                          <label>ISSUED AT</label><code>*</code>
+                                          <input class="form-control" type="text" placeholder="" value="This Brgy." disabled>
+                                          </div>
+                                        </div>
+                        </div>
+                    </div>
+                    
+                      
+                  </div>
+                </div>
+  
+
+
+            </div>
+
+            <div class="modal-footer justify-content-between">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary"><i class="fa fa-print"></i> PRINT</button>
+            </div>
+
+
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
 
 
 </body>
