@@ -65,6 +65,8 @@
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-12">
+
+								asd
 							</div>
 						</div>
 					</div>
@@ -148,7 +150,7 @@
 							                    ?>
 							                    <td>Encoder</td>
 							                    <td>pedropenduko</td>
-							                    <td>ADMIN-0001</td>
+							                    <td><strong>(ADMIN-0001)</strong>&nbsp;vince</td>
 							                    <td>08-30-2022 02:15:05</td>
 							                    <td>
 							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
