@@ -65,6 +65,12 @@
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-12">
+							</div>
+						</div>
+					</div>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
 								<div class="card">
 									<div class="card-header">
 													 <h3 class="float-left">Accounts Master List</h3>
