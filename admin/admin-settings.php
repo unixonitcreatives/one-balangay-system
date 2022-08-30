@@ -123,8 +123,11 @@
 						      				
 
 
-					<br><a type="button" class="btn-lg btn-success">+ Submit New Account</a><br>
+					
 								
+							</div>
+							<div class="card-footer">
+								<br><a type="button" class="btn-lg btn-success">+ Submit New Account</a><br>
 							</div>
 						</div>
 					</div>
