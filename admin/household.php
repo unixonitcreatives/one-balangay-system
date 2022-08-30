@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php $title = "Admin | Household"; ?>
-<?php $subTitle = "BIMO"; ?>
+<?php $subTitle = "One Balangay Ph"; ?>
 <?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
 
 <head>
