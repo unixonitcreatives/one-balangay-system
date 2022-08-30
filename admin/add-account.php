@@ -96,7 +96,7 @@
 					                    </div>
 							      				</div>
 							      				<div class="col-3">
-							      				<label>AGE</label><code>autocompute (Current Date - Birthdate)</code>
+							      				<label>AGE</label><code>autocompute</code>
 							      				<input class="form-control"type="text" placeholder="" disabled>
 							      				</div>
 
