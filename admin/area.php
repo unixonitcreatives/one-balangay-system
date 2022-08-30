@@ -73,7 +73,7 @@
 						            		<table id="example1" class="table table-striped">
 							                  <thead class=>
 							                  <tr>
-							                    <th>Area ID</th>
+							                    
 							                    <th>Category</th>
 							                    <th>Area</th>
 							                    <th>Created by</th>
@@ -84,7 +84,7 @@
 							                  </thead>
 							                  <tbody>
 							                  <tr>
-							                    <td>0001</td>
+							                    
 							                    <td>Purok</td>
 							                    <td>1</td>
 							                    <td>vince</td>
@@ -98,7 +98,7 @@
 							                  </tr>
 
 							                  <tr>
-							                    <td>0001</td>
+							                    
 							                    <td>Purok</td>
 							                    <td>2</td>
 							                    <td>vince</td>
@@ -112,7 +112,7 @@
 							                  </tr>
 
 							                  <tr>
-							                    <td>0001</td>
+							                    
 							                    <td>Purok</td>
 							                    <td>3</td>
 							                    <td>vince</td>
@@ -126,7 +126,7 @@
 							                  </tr>
 
 							                  <tr>
-							                    <td>0001</td>
+							                    
 							                    <td>Purok</td>
 							                    <td>4</td>
 							                    <td>vince</td>
@@ -140,7 +140,7 @@
 							                  </tr>
 
 							                  <tr>
-							                    <td>0001</td>
+							                    
 							                    <td>Purok</td>
 							                    <td>5</td>
 							                    <td>vince</td>
@@ -152,22 +152,7 @@
 
 							                    </td>
 							                  </tr>
-
-							                  <tr>
-							                    <td>0001</td>
-							                    <td>Purok</td>
-							                    <td>1</td>
-							                    <td>vince</td>
-							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-
-
-							                    </td>
-							                  </tr>
-
-							                  
+						                  
 							                  
 							                  </tbody>
 							                  <!-- <tfoot>
