@@ -113,7 +113,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="admin-settings.php" class="nav-link">
               <i class="nav-icon fas fa-cogs"></i>
               <p>
                 Settings
