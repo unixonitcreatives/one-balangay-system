@@ -48,7 +48,7 @@
 						      	<div class="col-md-6">
 						      		<div class="card card-default">
 						      			<div class="card-header">
-												<h5><i class="fa fa-info-circle"></i> Personal Information</h5>
+												<h5><i class="fa fa-info-circle"></i> Account Information</h5>
 						      			</div>
 
 						      			<div class="card-body">
