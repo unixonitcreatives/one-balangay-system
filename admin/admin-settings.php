@@ -123,11 +123,7 @@
 						      				
 
 
-					<br><a type="button" class="btn-lg btn-success">+ Submit New Account</a>
-					</div><br>
-									</div>
-								</div>
-
+					<br><a type="button" class="btn-lg btn-success">+ Submit New Account</a><br>
 								
 							</div>
 						</div>
