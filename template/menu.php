@@ -83,7 +83,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="area.php" class="nav-link">
               <i class="nav-icon fas fa-map"></i>
               <p>
                 Area
