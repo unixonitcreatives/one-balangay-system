@@ -87,6 +87,8 @@
 							                    <td>08-30-2022 02:00:00</td>
 							                    <td>
 							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+
+
 							                    </td>
 							                  </tr>
 
@@ -102,6 +104,8 @@
 							                    <td>08-30-2022 02:00:02</td>
 							                    <td>
 							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+
+							                    
 							                    </td>
 							                  </tr>
 
@@ -117,6 +121,7 @@
 							                    <td>08-30-2022 02:00:05</td>
 							                    <td>
 							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+
 							                    </td>
 							                  </tr>
 
@@ -132,6 +137,8 @@
 							                    <td>08-30-2022 02:15:05</td>
 							                    <td>
 							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+
+							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
 							                    </td>
 							                  </tr>
 							                  
