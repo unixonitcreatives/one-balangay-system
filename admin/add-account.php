@@ -104,7 +104,7 @@
 						      				
 
 
-					<a type="button" class="btn-lg btn-success">+ Submit New Resident</a>
+					<br><a type="button" class="btn-lg btn-success">+ Submit New Resident</a>
 					</div><br>
 
 
