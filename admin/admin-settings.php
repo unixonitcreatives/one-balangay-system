@@ -127,7 +127,7 @@
 								
 							</div>
 							<div class="card-footer">
-								<br><a type="button" class="btn btn-success float right"><i class="fa fa-check"/> Update</a><br>
+								<br><a type="button" class="btn btn-success float right"><i class="fa fa-check"></i> Update</a><br>
 							</div>
 						</div>
 					</div>
