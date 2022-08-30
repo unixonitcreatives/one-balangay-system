@@ -2,7 +2,7 @@
 <html>
 <?php $title = "Admin | Settings"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
-<?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
+<?php $breadcrumb = "Administrator Vince"; ?>
 
 <head>
 	<title><?php echo $title;?></title>
