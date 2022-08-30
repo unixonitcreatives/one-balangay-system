@@ -96,7 +96,7 @@
 					                    </div>
 							      				</div>
 							      				<div class="col-3">
-							      				<label>AGE</label><code>*</code>
+							      				<label>AGE</label><code>autocompute (Current Date - Birthdate)</code>
 							      				<input class="form-control"type="text" placeholder="" disabled>
 							      				</div>
 
@@ -104,7 +104,7 @@
 						      				
 
 
-					<br><a type="button" class="btn-lg btn-success">+ Submit New Resident</a>
+					<br><a type="button" class="btn-lg btn-success">+ Submit New Account</a>
 					</div><br>
 
 
