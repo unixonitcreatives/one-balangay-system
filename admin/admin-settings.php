@@ -74,6 +74,19 @@
 							                  </tr>
 							                  </thead>
 							                  <tbody>
+							                  <tr>
+							                    <td>ADMIN-0001</td>
+							                    <?php
+							                    //ADMIN ID FORMAT: ADMN-0001 
+							                    //ENCODER ID FORMAT: ENCO-0001
+							                    ?>
+							                    <td>Admin</td>
+							                    <td>vince</td>
+							                    <td>Superadmin</td>
+							                    <td>
+							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    </td>
+							                  </tr>
 							                  
 							                  </tbody>
 							                  <!-- <tfoot>
