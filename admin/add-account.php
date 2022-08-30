@@ -53,27 +53,21 @@
 
 						      			<div class="card-body">
 						      				<div class="row">
-							      				<div class="col-3">
-							      				<label>NATIONAL ID</label>
-							      				<input class="form-control"type="text" placeholder="" value="">
-							      				</div>
-							      				<div class="col-3">
+
+							      				<div class="col-6">
 							      				<div class="form-group">	
-								      					<label>HEAD</label>
+								      					<label>Usertype</label>
 									      				<select class="form-control select2" name="">
-																  <option value="">NO</option>
-																  <option value="">YES</option>
+																  <option value="1">Admin</option>
+																  <option value="2">Encoder</option>
 																</select>
 															</div>
 							      				</div>
-							      				<div class="col-3">
-							      				<label>FAMILY ID</label>
+							      				<div class="col-6">
+							      				<label>Username</label>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
-							      				<div class="col-3">
-							      				<label>SOCIAL MEDIA LINK</label>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
+
 						      				</div>
 						      				<!------------><br>
 						      				<div class="row">
@@ -92,7 +86,7 @@
 						      				</div>
 						      				<!------------><br>
 						      				<div class="row">
-							      				<div class="col-2">
+							      				<div class="col-9">
 							      				<label>BIRTHDATE</label> <i>mm/dd/yyy</i><code>*</code>
 								      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
 					                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
@@ -101,277 +95,13 @@
 					                        </div>
 					                    </div>
 							      				</div>
-							      				<div class="col-2">
+							      				<div class="col-3">
 							      				<label>AGE</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="" disabled>
 							      				</div>
-							      				<div class="col-8">
-							      				<label>PLACE OF BIRTH</label><code>*</code>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
+
 						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-						      					<div class="col-2">
-						      						<div class="form-group">	
-								      					<label>GENDER</label><code>*</code>
-									      				<select class="form-control select2" name="">
-																  <option value="Male">Male</option>
-																  <option value="Female">Female</option>
-																</select>
-															</div>
-							      				</div>
-							      				<div class="col-2">
-						      						<div class="form-group">	
-								      					<label>CIVIL STATUS</label><code>*</code>
-									      				<select class="form-control select2" name="">
-																  <option value="">Single</option>
-																  <option value="">Married</option>
-																  <option value="">Widowed</option>
-																</select>
-															</div>
-							      				</div>
-							      				<div class="col-3">
-						      						<div class="form-group">	
-								      					<label>NATIONALITY</label><code>*</code>
-									      				<select class="form-control select2" name="">
-																  <option value="">Filipino</option>
-																  <option value="">American</option>
-																  <option value="">Others</option>
-																</select>
-															</div>
-							      				</div>
-							      				<div class="col-2">
-						      						<div class="form-group">	
-								      					<label>RELIGION</label><code>*</code>
-									      				<select class="form-control select2" name="">
-																  <option value="">Catholic</option>
-																  <option value="">Muslim</option>
-																  <option value="">None</option>
-																</select>
-															</div>
-							      				</div>
-							      				<div class="col-3">
-						      						<div class="form-group">	
-								      					<label>EDUCATIONAL ATTAINMENT</label><code>*</code>
-									      				<select class="form-control select2" name="">
-																  <option value="">Elementary</option>
-																  <option value="">Secondary</option>
-																  <option value="">Vocational</option>
-																  <option value="">Bachelor's Degree</option>
-																  <option value="">Master's Degree</option>
-																  <option value="">PHD Degree</option>
-																  <option value="">None</option>
-																</select>
-															</div>
-							      				</div>
-							      				</div>
-							      				<!------------>
-							      				<div class="row">
-								      				<div class="col-4">
-							      						<div class="form-group">	
-									      					<label>EMPLOYMENT STATUS</label><code>*</code>
-										      				<select class="form-control select2" name="">
-																	  <option value="">Unemployed</option>
-																	  <option value="">Employed</option>
-																	  <option value="">Business Owner</option>
-																	</select>
-																</div>
-								      				</div>
-
-								      				<div class="col-4">
-								      				<label>PRESENT JOBS</label>
-								      				<input class="form-control"type="text" placeholder="">
-								      				</div>
-
-								      				<div class="col-4">
-						      						<div class="form-group">	
-								      					<label>VOTER STATUS</label><code>*</code>
-									      				<select class="form-control select2" name="">
-																  <option value="">Unregistered</option>
-																  <option value="">Registered</option>
-																</select>
-															</div>
-							      					</div>
-							      					</div>
-							      					<!------------>
-							      					<div class="row">
-							      						<div class="col-4">
-									      				<label>VOTER's ID | (PRECINT NUMBER)</label>
-									      				<input class="form-control"type="text" placeholder="">
-									      				</div>
-
-									      				<div class="col-2">
-							      						<div class="form-group">	
-									      					<label>PWD</label><code>*</code>
-										      				<select class="form-control select2" name="">
-																	  <option value="">NO</option>
-																	  <option value="">YES</option>
-																	</select>
-																</div>
-								      					</div>
-
-								      					<div class="col-2">
-							      						<div class="form-group">	
-									      					<label>4P's</label><code>*</code>
-										      				<select class="form-control select2" name="">
-																	  <option value="">NO</option>
-																	  <option value="">YES</option>
-																	</select>
-																</div>
-								      					</div>
-
-								      					<div class="col-4">
-							      						<div class="form-group">	
-									      					<label>BLOOD TYPE</label><code>*</code>
-										      				<select class="form-control select2" name="">
-																	  <option value="">O</option>
-																	  <option value="">A</option>
-																	  <option value="">B</option>
-																	  <option value="">AB</option>
-																	  <option value="">NA</option>
-																	</select>
-																</div>
-								      					</div>
-							      					</div>
-							      					<!------------>
-							      					<div class="row">
-							      						<div class="col-4">
-							      						<div class="form-group">	
-									      					<label>YOUTH MEMBER</label>
-										      				<select class="form-control select2" name="">
-																	  <option value="">NO</option>
-																	  <option value="">YES</option>
-																	</select>
-																</div>
-								      					</div>
-								      					<div class="col-2">
-							      						<div class="form-group">	
-									      					<label>SK VOTER</label>
-										      				<select class="form-control select2" name="">
-																	  <option value="">NO</option>
-																	  <option value="">YES</option>
-																	</select>
-																</div>
-								      					</div>
-
-								      					<div class="col-2">
-									      				<label>SALARY/MONTH</label>
-									      				<input class="form-control" type="number" placeholder="">
-									      				</div>
-
-								      					<div class="col-2">
-							      						<div class="form-group">	
-									      					<label>MORAL</label>
-										      				<select class="form-control select2" name="">
-																	  <option value="">NO</option>
-																	  <option value="">YES</option>
-																	</select>
-																</div>
-								      					</div>
-
-								      					<div class="col-2">
-									      				<label>TAGS</label>
-									      				<input class="form-control"type="text" placeholder="">
-									      				</div>
-
-							      					</div>
-							      					<!------------>
-						      			</div>
-						      		</div>
-						      	</div>
-
-						      	<div class="col-md-12">
-						      		<div class="card card-default">
-						      			<div class="card-header">
-						      			<h5><i class="fa fa-home"></i> Residency Permanent Address</h5>
-						      			</div>
-						      			<div class="card-body">
-						 
-						      					<div class="row">
-							      					<div class="col-6">
-							      						<label>HOME ADDRESS</label><code>*</code>
-									      				<input class="form-control"type="text" placeholder="">
-							      					</div>
-							      					<div class="col-6">
-							      						<div class="form-group">	
-									      					<label>AREA / PUROK / SITIO Etc</label><code>*</code>
-										      				<select class="form-control select2" name="">
-																	  <option value="">Purok 1</option>
-																	  <option value="">Purok 2</option>
-																	  <option value="">Purok 3</option>
-																	  <option value="">Purok 4</option>
-																	  <option value="">Purok 5</option>
-																	  <option value="">Purok 6</option>
-																	</select>
-																</div>
-								      				</div>
-								      			</div>
-							      				<!-------><br>
-							      				<div class="row">
-							      					<div class="col-6">
-							      						<label>BARANGAY</label><code>*</code>
-									      				<input class="form-control"type="text" placeholder="This Barangay" disabled>
-							      					</div>
-							      					<div class="col-6">
-							      						<label>CITY / MUNICIPALITY / PROVINCE</label><code>*</code>
-									      				<input class="form-control"type="text" placeholder="This City/Municipality/Province" disabled>
-							      					</div>
-							      				</div>
-							      				<!-------><br>
-							      				<div class="row">
-							      					<div class="col-6">
-							      						<div class="form-group">	
-									      					<label>RESIDENCY STATUS</label><code>*</code>
-										      				<select class="form-control select2" name="">
-																	  <option value="">Permanent</option>
-																	  <option value="">Temporary</option>
-																	</select>
-																</div>
-								      				</div>
-							      					<div class="col-6">
-							      						<label>RESIDENCE SINCE</label> <i>mm/dd/yyyy</i><code>*</code>
-									      				<div class="input-group date" id="residencesince" data-target-input="nearest">
-					                        <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
-					                        <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
-					                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-					                        </div>
-					                    </div>
-							      					</div>
-							      				</div>
-
-							  
 						      				
-						      			</div>
-						      		</div>
-						      	</div>
-
-						      	<div class="col-md-12">
-						      		<div class="card card-default">
-						      			<div class="card-header">
-												<h5><i class="fa fa-phone"></i> Emergency Contact</h5>
-						      			</div>
-						      			<div class="card-body">
-						      					<div class="row">
-							      					<div class="col-4">
-							      						<label>EMERGENCY CONTACT PERSON FULL NAME</label>
-									      				<input class="form-control"type="text" placeholder="">
-							      					</div>
-							      					<div class="col-4">
-							      						<label>CONTACT NO</label>
-									      				<input class="form-control"type="text" placeholder="">
-							      					</div>
-							      					<div class="col-4">
-							      						<label>HOME ADDRESS</label>
-									      				<input class="form-control"type="text" placeholder="">
-							      					</div>
-							      				</div>
-						      			</div>
-						      		</div>
-						      			
-						      	</div>
-
-						      </div>
 
 
 					<a type="button" class="btn-lg btn-success">+ Submit New Resident</a>
