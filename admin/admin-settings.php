@@ -44,7 +44,7 @@
 			          <div class="col-sm-6">
 			            <ol class="breadcrumb float-sm-right">
 			              <!-- <li class="breadcrumb-item"><a href="#">Home</a></li> -->
-			              <li class="breadcrumb-item active"><?php echo $subTitle;?></li>
+			              <li class="breadcrumb-item active"><?php echo $breadcrumb;?></li>
 			            </ol>
 			          </div><!-- /.col -->
 			        </div><!-- /.row -->
@@ -53,13 +53,7 @@
 			    <!-- /.content-header -->
 				</section>
 
-				<div class="card-body">
-					<div class="alert alert-info alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
-            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
-          </div>
-      	</div>
+
 
 				<section class="content">
 					<div class="container-fluid">
@@ -124,15 +118,19 @@
 							</div>
 							<div class="card-footer">
 								<br>
-								<a type="button" class="btn btn-secondary"><i class="fa fa-lock"></i> Update Password</a>&nbsp;
+								<a href="admin-update-password.php" type="button" class="btn btn-secondary"><i class="fa fa-lock"></i> Update Password</a>&nbsp;
 								<a type="button" class="btn btn-success"><i class="fa fa-check"></i> Update Changes</a><br>
 							</div>
 						</div>
 					</div>
 
-
-
-
+				<div class="card-body">
+					<div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
+            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
+          </div>
+      	</div>
 
 					<div class="container-fluid">
 						<div class="row">
