@@ -64,7 +64,7 @@
 				<section class="content">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-6">
+							<div class="col-8">
 								<div class="card">
 									<div class="card-header">
 										<h3 class="float-left">Profile Setting</h3>
@@ -121,16 +121,19 @@
 
 						      				</div>
 						      				
-
-
-					
-								
 							</div>
 							<div class="card-footer">
-								<br><a type="button" class="btn btn-success float right"><i class="fa fa-check"></i> Update</a><br>
+								<br>
+								<a type="button" class="btn btn-success float-right"><i class="fa fa-lock"></i> Update Password</a>
+								<a type="button" class="btn btn-success float-right"><i class="fa fa-check"></i> Update Changes</a><br>
 							</div>
 						</div>
 					</div>
+
+
+
+
+
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-12">
