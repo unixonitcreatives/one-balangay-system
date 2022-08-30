@@ -67,7 +67,7 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-header">
-													 <a>asd</a>
+													 <H2>Accounts Master List</H2>
 						               <a type="button" class="btn btn-success float-right" href="add-account.php"><i class="fa fa-	home"></i>&nbsp;+ Add new account</a>
 						            </div>
 						            <div class="card-body">
