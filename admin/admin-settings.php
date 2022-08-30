@@ -67,7 +67,7 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-header">
-						               <a type="button" class="btn btn-success float-right" href="add-resident.php"><i class="fa fa-	home"></i>&nbsp;+ Add new account</a>
+						               <a type="button" class="btn btn-success float-right" href="add-account.php"><i class="fa fa-	home"></i>&nbsp;+ Add new account</a>
 						            </div>
 						            <div class="card-body">
 						            		<table id="example1" class="table table-striped">
@@ -87,7 +87,7 @@
 							                    <td>ADMIN-0001</td>
 							                    <?php
 							                    //ADMIN ID FORMAT: ADMN-0001 
-							                    //ENCODER ID FORMAT: ENCO-0001
+							                    //ENCODER ID FORMAT: ENCODER-0001
 							                    ?>
 							                    <td>Admin</td>
 							                    <td>vince</td>
@@ -104,7 +104,7 @@
 							                    <td>ADMIN-0002</td>
 							                    <?php
 							                    //ADMIN ID FORMAT: ADMN-0001 
-							                    //ENCODER ID FORMAT: ENCO-0001
+							                    //ENCODER ID FORMAT: ENCODER-0001
 							                    ?>
 							                    <td>Admin</td>
 							                    <td>joff</td>
@@ -121,7 +121,7 @@
 							                    <td>ADMIN-0003</td>
 							                    <?php
 							                    //ADMIN ID FORMAT: ADMN-0001 
-							                    //ENCODER ID FORMAT: ENCO-0001
+							                    //ENCODER ID FORMAT: ENCODER-0001
 							                    ?>
 							                    <td>Admin</td>
 							                    <td>lance</td>
@@ -137,7 +137,7 @@
 							                    <td>ENCODER-0001</td>
 							                    <?php
 							                    //ADMIN ID FORMAT: ADMN-0001 
-							                    //ENCODER ID FORMAT: ENCO-0001
+							                    //ENCODER ID FORMAT: ENCODER-0001
 							                    ?>
 							                    <td>Encoder</td>
 							                    <td>pedropenduko</td>
