@@ -2,6 +2,7 @@
 <html>
 <?php $title = "Admin | Residents"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
+<?php $account = "vince - Administrator"; ?>
 <?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
 
 <head>
@@ -90,7 +91,7 @@
 							                    <td>
 							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="view-resident.php"><i class="fa fa-search"></i></a>
 							                    	<a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-							                    	<a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
+							                    	
 							                    </td>
 							                  </tr>
 
@@ -105,9 +106,9 @@
 																	<td></td>
 																	<td></td>
 							                    <td>
-							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="view-resident.php"><i class="fa fa-search"></i></a>
 							                    	<a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-							                    	<a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
+							                    	
 							                    </td>
 							                  </tr>
 
@@ -122,9 +123,9 @@
 																	<td></td>
 																	<td></td>
 							                    <td>
-							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="view-resident.php"><i class="fa fa-search"></i></a>
 							                    	<a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-							                    	<a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
+							                    	
 							                    </td>
 							                  </tr>
 
@@ -139,9 +140,9 @@
 																	<td></td>
 																	<td></td>
 							                    <td>
-							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="view-resident.php"><i class="fa fa-search"></i></a>
 							                    	<a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-							                    	<a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
+							                    	
 							                    </td>
 							                  </tr>
 
@@ -156,9 +157,9 @@
 																	<td>Pending Case</td>
 																	<td>Theft</td>
 							                    <td>
-							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="view-resident.php"><i class="fa fa-search"></i></a>
 							                    	<a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
-							                    	<a type="button" title="Edit Resident" class="btn-sm btn-info" href="#"><i class="fa fa-edit"></i></a>
+							                    	
 							                    </td>
 							                  </tr>
 							                 

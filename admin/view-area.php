@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php $title = "Admin | Settings"; ?>
+<?php $title = "Admin | Area"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
 <?php $account = "vince - Administrator"; ?>
 <?php $breadcrumb = "Brgy 46, Pasay City"; ?>
@@ -27,7 +27,7 @@
 			      <div class="container-fluid">
 			        <div class="row mb-2">
 			          <div class="col-sm-6">
-			            <h1 class="m-0">Add New Account</h1>
+			            <h1 class="m-0">Area Details</h1>
 			          </div><!-- /.col -->
 			          <div class="col-sm-6">
 			            <ol class="breadcrumb float-sm-right">
@@ -49,64 +49,34 @@
 						      	<div class="col-md-6">
 						      		<div class="card card-default">
 						      			<div class="card-header">
-												<h5><i class="fa fa-info-circle"></i> Account Information</h5>
+												<h5><i class="fa fa-info-circle"></i> Area Information</h5>
 						      			</div>
 
 						      			<div class="card-body">
 						      				<div class="row">
 
+						      					<div class="col-6">
+							      				<label>Category</label>
+							      				<input class="form-control"type="text" placeholder="e.g. Purok/Sitio/Cluster"value="Purok">
+							      				</div>
+							      				
 							      				<div class="col-6">
-							      				<div class="form-group">	
-								      					<label>Usertype</label>
-									      				<select class="form-control select2" name="">
-																  <option value="1">Admin</option>
-																  <option value="2">Encoder</option>
-																</select>
-															</div>
-							      				</div>
-							      				<div class="col-6">
-							      				<label>Username</label>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
-
-						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-							      				<div class="col-4">
-							      				<label>FIRST NAME</label><code>*</code>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
-							      				<div class="col-4">
-							      				<label>MIDDLE NAME</label><code>*</code>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
-							      				<div class="col-4">
-							      				<label>LAST NAME</label><code>*</code>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
-						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-							      				<div class="col-9">
-							      				<label>BIRTHDATE</label> <i>mm/dd/yyy</i><code>*</code>
-								      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
-					                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
-					                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-					                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-					                        </div>
-					                    </div>
-							      				</div>
-							      				<div class="col-3">
-							      				<label>AGE</label><code>autocompute</code>
-							      				<input class="form-control"type="text" placeholder="" disabled>
+							      				<label>Description</label>
+							      				<input class="form-control"type="text" placeholder=""value="Purok 1">
 							      				</div>
 
 						      				</div>
 						      				
+						      				</div>
+						      				
 
+							<div class="card-footer">
+								<a type="button" class="btn btn-success"><i class="fa fa-check"></i> Update Changes</a><br>
+							</div>
+							
+					</div>
 
-					<br><a type="button" class="btn-lg btn-success">+ Submit New Account</a>
-					</div><br>
+					
 
 
 					

@@ -2,6 +2,7 @@
 <html>
 <?php $title = "Admin | Household"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
+<?php $account = "vince - Administrator"; ?>
 <?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
 
 <head>

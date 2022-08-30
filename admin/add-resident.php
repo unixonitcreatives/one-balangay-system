@@ -2,7 +2,8 @@
 <html>
 <?php $title = "Admin | Residents"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
-<?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
+<?php $account = "vince - Administrator"; ?>
+<?php $breadcrumb = "Brgy 46, Pasay City"; ?>
 
 <head>
 	<title><?php echo $title;?></title>
@@ -93,7 +94,7 @@
 						      				<!------------><br>
 						      				<div class="row">
 							      				<div class="col-2">
-							      				<label>BIRTHDATE</label> <i>mm/dd/yyy</i><code>*</code>
+							      				<label>BIRTHDATE</label><code>*</code>
 								      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
 					                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
 					                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
@@ -221,7 +222,7 @@
 																</div>
 								      					</div>
 
-								      					<div class="col-4">
+								      					<div class="col-2">
 							      						<div class="form-group">	
 									      					<label>BLOOD TYPE</label><code>*</code>
 										      				<select class="form-control select2" name="">
@@ -233,10 +234,20 @@
 																	</select>
 																</div>
 								      					</div>
+
+								      					<div class="col-2">
+							      						<div class="form-group">	
+									      					<label>DONOR?</label><code>*</code>
+										      				<select class="form-control select2" name="">
+																	  <option value="">YES</option>
+																	  <option value="">NO</option>
+																	</select>
+																</div>
+								      					</div>
 							      					</div>
 							      					<!------------>
 							      					<div class="row">
-							      						<div class="col-4">
+							      						<div class="col-2">
 							      						<div class="form-group">	
 									      					<label>YOUTH MEMBER</label>
 										      				<select class="form-control select2" name="">
@@ -270,7 +281,7 @@
 																</div>
 								      					</div>
 
-								      					<div class="col-2">
+								      					<div class="col-4">
 									      				<label>TAGS</label>
 									      				<input class="form-control"type="text" placeholder="">
 									      				</div>
@@ -295,7 +306,7 @@
 							      					</div>
 							      					<div class="col-6">
 							      						<div class="form-group">	
-									      					<label>AREA / PUROK / SITIO Etc</label><code>*</code>
+									      					<label>AREA</label><code>*</code>
 										      				<select class="form-control select2" name="">
 																	  <option value="">Purok 1</option>
 																	  <option value="">Purok 2</option>

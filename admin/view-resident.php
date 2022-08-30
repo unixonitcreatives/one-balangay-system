@@ -2,6 +2,7 @@
 <html>
 <?php $title = "Admin | Residents"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
+<?php $account = "vince - Administrator"; ?>
 <?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
 
 <head>
@@ -84,10 +85,14 @@
                   </li>
                 </ul>
 
-                <a href="#" class="btn btn-primary btn-block"><b><i class="fa fa-edit"></i>     Edit Profile</b></a>
+                
 
                 <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#modal-default">
-                <b><i class="fa fa-file"></i> Print Certificate</b></a>
+                <b><i class="fa fa-file"></i>&nbsp;Print Certificate</b></a>
+
+                <a href="#" class="btn btn-primary btn-block"><b><i class="fa fa-edit"></i>&nbsp;Update Changes</b></a>
+
+                <a href="#" class="btn btn-danger btn-block"><b><i class="fa fa-trash"></i>&nbsp;Delete Resident</b></a>
               </div>
               <!-- /.card-body -->
             </div>
@@ -146,7 +151,7 @@
                           <!------------><br>
                           <div class="row">
                             <div class="col-2">
-                            <label>BIRTHDATE</label> <i>mm/dd/yyy</i><code>*</code>
+                            <label>BIRTHDATE</label><code>*</code>
                               <div class="input-group date" id="reservationdate" data-target-input="nearest">
                                   <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" value="01/01/2000"/>
                                   <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
@@ -276,7 +281,7 @@
                                 </div>
                                 </div>
 
-                                <div class="col-4">
+                                <div class="col-2">
                                 <div class="form-group">  
                                   <label>BLOOD TYPE</label><code>*</code>
                                   <select class="form-control select2" name="">
@@ -288,10 +293,20 @@
                                   </select>
                                 </div>
                                 </div>
+
+                                <div class="col-2">
+                                <div class="form-group">  
+                                  <label>BLOOD DONOR?</label><code>*</code>
+                                  <select class="form-control select2" name="">
+                                    <option value="">YES</option>
+                                    <option value="">NO</option>
+                                  </select>
+                                </div>
+                                </div>
                               </div>
                               <!------------>
                               <div class="row">
-                                <div class="col-4">
+                                <div class="col-2">
                                 <div class="form-group">  
                                   <label>YOUTH MEMBER</label>
                                   <select class="form-control select2" name="">
@@ -325,7 +340,7 @@
                                 </div>
                                 </div>
 
-                                <div class="col-2">
+                                <div class="col-4">
                                 <label>TAGS</label>
                                 <input class="form-control"type="text" placeholder="">
                                 </div>
@@ -350,7 +365,7 @@
                               </div>
                               <div class="col-6">
                                 <div class="form-group">  
-                                  <label>AREA / PUROK / SITIO Etc</label><code>*</code>
+                                  <label>AREA</label><code>*</code>
                                   <select class="form-control select2" name="">
                                     <option value="">Purok 1</option>
                                     <option value="">Purok 2</option>

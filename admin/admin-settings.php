@@ -2,7 +2,8 @@
 <html>
 <?php $title = "Admin | Settings"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
-<?php $breadcrumb = "Administrator Vince"; ?>
+<?php $account = "vince - Administrator"; ?>
+<?php $breadcrumb = "Brgy 46, Pasay City"; ?>
 
 <head>
 	<title><?php echo $title;?></title>
@@ -61,7 +62,7 @@
 							<div class="col-8">
 								<div class="card">
 									<div class="card-header">
-										<h3 class="float-left">Profile Setting</h3>
+										<h3 class="float-left">Barangay Setting</h3>
 									</div>
 									<div class="card-body">
 
@@ -69,68 +70,58 @@
 
 							      				<div class="col-6">
 							      				<div class="form-group">	
-								      					<label>Usertype</label>
+								      					<label>Province/State</label>
 									      				<select class="form-control select2" name="">
-																  <option value="1">Admin</option>
-																  <option value="2">Encoder</option>
+																  <option value="1">NCR</option>
+																  <option value="2">Cavite</option>
+																  <option value="2">Laguna</option>
+																  <option value="3">And so on...</option>
 																</select>
 															</div>
 							      				</div>
+
 							      				<div class="col-6">
-							      				<label>Username</label>
+							      				<div class="form-group">	
+								      					<label>City/Municipality</label>
+									      				<select class="form-control select2" name="">
+																  <option value="1">Pasay City</option>
+																  <option value="2">Makati City</option>
+																  <option value="3">Manila City</option>
+																  <option value="4">And so on...</option>
+																</select>
+															</div>
+							      				</div>
+						      				</div>
+						      				<!------------><br>
+						      				<div class="row">
+						      					<div class="col-12">
+							      				<label>BRGY HALL Complete Address</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
 
 						      				</div>
 						      				<!------------><br>
 						      				<div class="row">
-							      				<div class="col-4">
-							      				<label>FIRST NAME</label><code>*</code>
+						      					<div class="col-6">
+							      				<label>Tel No</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
-							      				<div class="col-4">
-							      				<label>MIDDLE NAME</label><code>*</code>
+
+							      				<div class="col-6">
+							      				<label>Contact No</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
-							      				<div class="col-4">
-							      				<label>LAST NAME</label><code>*</code>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
-						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-							      				<div class="col-9">
-							      				<label>BIRTHDATE</label> <i>mm/dd/yyy</i><code>*</code>
-								      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
-					                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
-					                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-					                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-					                        </div>
-					                    </div>
-							      				</div>
-							      				<div class="col-3">
-							      				<label>AGE</label><code>autocompute</code>
-							      				<input class="form-control"type="text" placeholder="" disabled>
 							      				</div>
 
 						      				</div>
 						      				
 							</div>
 							<div class="card-footer">
-								<br>
-								<a href="admin-update-password.php" type="button" class="btn btn-secondary"><i class="fa fa-lock"></i> Update Password</a>&nbsp;
 								<a type="button" class="btn btn-success"><i class="fa fa-check"></i> Update Changes</a><br>
 							</div>
 						</div>
 					</div>
 
-				<div class="card-body">
-					<div class="alert alert-info alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
-            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
-          </div>
-      	</div>
+				
 
 					<div class="container-fluid">
 						<div class="row">
@@ -138,9 +129,16 @@
 								<div class="card">
 									<div class="card-header">
 													 <h3 class="float-left">Accounts Master List</h3>
-						               <a type="button" class="btn btn-success float-right" href="add-account.php"><i class="fa fa-	home"></i>&nbsp;+ Add new account</a>
+						               <a type="button" class="btn btn-success float-right" href="add-account.php"><i class="fa fa-plus"></i>&nbsp;Add new account</a>
 						            </div>
 						            <div class="card-body">
+
+														<div class="alert alert-info alert-dismissible">
+									            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+									            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
+									            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
+									          </div>
+									   
 						            		<table id="example1" class="table table-striped">
 							                  <thead class=>
 							                  <tr>
@@ -220,6 +218,117 @@
 							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
 							                    </td>
 							                  </tr>
+							                  
+							                  </tbody>
+							                  <!-- <tfoot>
+							                  <tr>
+							                    <th>Rendering engine</th>
+							                    <th>Browser</th>
+							                    <th>Platform(s)</th>
+							                    <th>Engine version</th>
+							                    <th>CSS grade</th>
+							                  </tr>
+							                  </tfoot> -->
+							                </table>
+
+						            </div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-header">
+													 <h3 class="float-left">Board Member List</h3>
+						               <a type="button" class="btn btn-success float-right" href="add-account.php"><i class="fa fa-plus"></i>&nbsp;Add New Board Member</a>
+						            </div>
+						            <div class="card-body">
+
+														<!-- <div class="alert alert-info alert-dismissible">
+									            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+									            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
+									            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
+									          </div> -->
+									   
+						            		<table id="example1" class="table table-striped">
+							                  <thead class=>
+							                  <tr>
+							                    <th>Department</th>
+							                    <th>Position</th>
+							                    <th>First Name</th>
+							                    <th>Last Name</th>
+							                    <th>Contact No:</th>
+							                    <th>Added by</th>
+							                    <th>Created at</th>
+
+							                    <th>Action</th>
+							                  </tr>
+							                  </thead>
+							                  <tbody>
+							                  <tr>
+							                    <td>Barangay</td>
+							                    <td>Chairman</td>
+							                    <td>Bongbong</td>
+							                    <td>Marcos Jr.</td>
+							                    <td>0991 123 45678</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Residency" class="btn-sm btn-primary" href="#"><i class="fa fa-user"></i></a>
+							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>Education</td>
+							                    <td>Chairwoman</td>
+							                    <td>Sarah</td>
+							                    <td>Duterte</td>
+							                    <td>0991 123 45678</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Residency" class="btn-sm btn-primary" href="#"><i class="fa fa-user"></i></a>
+							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>Barangay</td>
+							                    <td>Treasurer</td>
+							                    <td>Imelda</td>
+							                    <td>Marcos</td>
+							                    <td>0991 123 45678</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Residency" class="btn-sm btn-primary" href="#"><i class="fa fa-user"></i></a>
+							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>Barangay</td>
+							                    <td>Secretary</td>
+							                    <td>Imee</td>
+							                    <td>Marcos</td>
+							                    <td>0991 123 45678</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Residency" class="btn-sm btn-primary" href="#"><i class="fa fa-user"></i></a>
+							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    </td>
+							                  </tr>
+
 							                  
 							                  </tbody>
 							                  <!-- <tfoot>

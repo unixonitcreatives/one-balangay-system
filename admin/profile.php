@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php $title = "Admin | Area"; ?>
+<?php $title = "Admin | Settings"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
 <?php $account = "vince - Administrator"; ?>
 <?php $breadcrumb = "Brgy 46, Pasay City"; ?>
@@ -45,7 +45,7 @@
 			          <div class="col-sm-6">
 			            <ol class="breadcrumb float-sm-right">
 			              <!-- <li class="breadcrumb-item"><a href="#">Home</a></li> -->
-			              <li class="breadcrumb-item active"><?php echo $subTitle;?></li>
+			              <li class="breadcrumb-item active"><?php echo $breadcrumb;?></li>
 			            </ol>
 			          </div><!-- /.col -->
 			        </div><!-- /.row -->
@@ -54,126 +54,77 @@
 			    <!-- /.content-header -->
 				</section>
 
-				<!-- <div class="card-body">
-					<div class="alert alert-info alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
-            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
-          </div>
-      	</div> -->
+
 
 				<section class="content">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-12">
+							<div class="col-8">
 								<div class="card">
 									<div class="card-header">
-						               <a type="button" class="btn btn-success float-right" href="add-area.php"><i class="fa fa-plus"></i>&nbsp;Add new area</a>
-						            </div>
-						            <div class="card-body">
-						            		<table id="example1" class="table table-striped">
-							                  <thead class=>
-							                  <tr>
-							                    
-							                    <th>Category</th>
-							                    <th>Description</th>
-							                    <th>Created by</th>
-							                    <th>Created at</th>
+										<h3 class="float-left">Profile Setting</h3>
+									</div>
+									<div class="card-body">
 
-							                    <th>Action</th>
-							                  </tr>
-							                  </thead>
-							                  <tbody>
-							                  <tr>
-							                    
-							                    <td>Purok</td>
-							                    <td>Purok 1</td>
-							                    <td>vince</td>
-							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Residents" class="btn-sm btn-primary" href="resident.php"><i class="fa fa-users"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+										<div class="row">
 
+							      				<div class="col-6">
+							      				<div class="form-group">	
+								      					<label>Usertype</label>
+									      				<select class="form-control select2" name="" disabled>
+																  <option value="1">Admin</option>
+																  <option value="2">Encoder</option>
+																</select>
+															</div>
+							      				</div>
+							      				<div class="col-6">
+							      				<label>Username</label>
+							      				<input class="form-control"type="text" placeholder="" value="vince">
+							      				</div>
 
-							                    </td>
-							                  </tr>
+						      				</div>
+						      				<!------------><br>
+						      				<div class="row">
+							      				<div class="col-4">
+							      				<label>FIRST NAME</label><code>*</code>
+							      				<input class="form-control"type="text" placeholder="" value="Vince">
+							      				</div>
+							      				<div class="col-4">
+							      				<label>MIDDLE NAME</label><code>*</code>
+							      				<input class="form-control"type="text" placeholder="" value="Recto">
+							      				</div>
+							      				<div class="col-4">
+							      				<label>LAST NAME</label><code>*</code>
+							      				<input class="form-control"type="text" placeholder="" value="Cachi">
+							      				</div>
+						      				</div>
+						      				<!------------><br>
+						      				<div class="row">
+							      				<div class="col-9">
+							      				<label>BIRTHDATE</label> <i>mm/dd/yyy</i><code>*</code>
+								      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
+					                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" value="01/01/2000"/>
+					                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+					                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+					                        </div>
+					                    </div>
+							      				</div>
+							      				<div class="col-3">
+							      				<label>AGE</label><code>&nbsp;autocompute</code>
+							      				<input class="form-control"type="text" placeholder="" value="22"disabled>
+							      				</div>
 
-							                  <tr>
-							                    
-							                    <td>Purok</td>
-							                    <td>Purok 2</td>
-							                    <td>vince</td>
-							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-
-
-							                    </td>
-							                  </tr>
-
-							                  <tr>
-							                    
-							                    <td>Purok</td>
-							                    <td>Purok 3</td>
-							                    <td>vince</td>
-							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-
-
-							                    </td>
-							                  </tr>
-
-							                  <tr>
-							                    
-							                    <td>Purok</td>
-							                    <td>Purok 4</td>
-							                    <td>vince</td>
-							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-
-
-							                    </td>
-							                  </tr>
-
-							                  <tr>
-							                    
-							                    <td>Purok</td>
-							                    <td>Purok 5</td>
-							                    <td>vince</td>
-							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-
-
-							                    </td>
-							                  </tr>
-						                  
-							                  
-							                  </tbody>
-							                  <!-- <tfoot>
-							                  <tr>
-							                    <th>Rendering engine</th>
-							                    <th>Browser</th>
-							                    <th>Platform(s)</th>
-							                    <th>Engine version</th>
-							                    <th>CSS grade</th>
-							                  </tr>
-							                  </tfoot> -->
-							                </table>
-
-						            </div>
-								</div>
+						      				</div>
+						      				
+							</div>
+							<div class="card-footer">
+								<a href="admin-update-password.php" type="button" class="btn btn-secondary"><i class="fa fa-lock"></i> Update Password</a>&nbsp;
+								<a type="button" class="btn btn-success"><i class="fa fa-check"></i> Update Changes</a><br>
 							</div>
 						</div>
-						
 					</div>
+				
+
 					
 				</section>
 		  </div>

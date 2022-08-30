@@ -29,7 +29,7 @@
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
 
         <div class="info">
-          <a href="" class="d-block">Brgy. 46, Pasay City</a>
+          <a href="profile.php" class="d-block"><?php echo $account;?></a>
         </div>
       </div>
 
@@ -53,7 +53,7 @@
                 <a href="resident.php" class="nav-link">
                   <i class="nav-icon fas fa-users"></i>
                   <p>
-                    Residents
+                    Residents*
                     
                   </p>
                 </a>
@@ -73,7 +73,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-store"></i>
               <p>
                 Business
@@ -86,14 +86,14 @@
             <a href="area.php" class="nav-link">
               <i class="nav-icon fas fa-map"></i>
               <p>
-                Area
+                Area*
                 <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-building"></i>
               <p>
                 Properties
@@ -103,7 +103,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
                 Summary
@@ -116,7 +116,7 @@
             <a href="admin-settings.php" class="nav-link">
               <i class="nav-icon fas fa-cogs"></i>
               <p>
-                Settings
+                Settings*
               </p>
             </a>
           </li>

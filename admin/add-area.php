@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<?php $title = "Admin | Add Account"; ?>
+<?php $title = "Admin | Area"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
-<?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
+<?php $account = "vince - Administrator"; ?>
+<?php $breadcrumb = "Brgy 46, Pasay City"; ?>
 
 <head>
 	<title><?php echo $title;?></title>
@@ -26,7 +27,7 @@
 			      <div class="container-fluid">
 			        <div class="row mb-2">
 			          <div class="col-sm-6">
-			            <h1 class="m-0">Add New Account</h1>
+			            <h1 class="m-0">Add New Area</h1>
 			          </div><!-- /.col -->
 			          <div class="col-sm-6">
 			            <ol class="breadcrumb float-sm-right">

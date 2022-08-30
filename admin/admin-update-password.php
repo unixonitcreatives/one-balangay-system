@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<?php $title = "Admin | Add Account"; ?>
+<?php $title = "Admin | Settings"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
-<?php $breadcrumb = "Pasay City, Brgy. 46"; ?>
+<?php $account = "vince - Administrator"; ?>
+<?php $breadcrumb = "Brgy 46, Pasay City"; ?>
 
 <head>
 	<title><?php echo $title;?></title>
