@@ -54,11 +54,11 @@
 				</section>
 
 				<div class="card-body">
-					<div class="callout callout-info">
-	          <h5>I am an info callout!</h5>
-
-	          <p>Follow the steps to continue to payment.</p>
-	        </div>
+					<div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
+            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
+          </div>
       	</div>
 
 				<section class="content">
