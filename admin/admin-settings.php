@@ -244,7 +244,7 @@
 								<div class="card">
 									<div class="card-header">
 													 <h3 class="float-left">Board Member List</h3>
-						               <a type="button" class="btn btn-success float-right" href="add-account.php"><i class="fa fa-plus"></i>&nbsp;Add New Board Member</a>
+						               <a type="button" class="btn btn-success float-right" href="add-board-member.php"><i class="fa fa-plus"></i>&nbsp;Add New Board Member</a>
 						            </div>
 						            <div class="card-body">
 
