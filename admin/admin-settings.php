@@ -69,6 +69,7 @@
 							                    <th>Usertype</th>
 							                    <th>Username</th>
 							                    <th>Created by</th>
+							                    <th>Created at</th>
 
 							                    <th>Action</th>
 							                  </tr>
@@ -83,6 +84,52 @@
 							                    <td>Admin</td>
 							                    <td>vince</td>
 							                    <td>Superadmin</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>ADMIN-0002</td>
+							                    <?php
+							                    //ADMIN ID FORMAT: ADMN-0001 
+							                    //ENCODER ID FORMAT: ENCO-0001
+							                    ?>
+							                    <td>Admin</td>
+							                    <td>joff</td>
+							                    <td>Superadmin</td>
+							                    <td>08-30-2022 02:00:02</td>
+							                    <td>
+							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>ADMIN-0003</td>
+							                    <?php
+							                    //ADMIN ID FORMAT: ADMN-0001 
+							                    //ENCODER ID FORMAT: ENCO-0001
+							                    ?>
+							                    <td>Admin</td>
+							                    <td>lance</td>
+							                    <td>Superadmin</td>
+							                    <td>08-30-2022 02:00:05</td>
+							                    <td>
+							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    </td>
+							                  </tr>
+
+							                   <tr>
+							                    <td>ENCODER-0001</td>
+							                    <?php
+							                    //ADMIN ID FORMAT: ADMN-0001 
+							                    //ENCODER ID FORMAT: ENCO-0001
+							                    ?>
+							                    <td>Encoder</td>
+							                    <td>pedropenduko</td>
+							                    <td>ADMIN-0001</td>
+							                    <td>08-30-2022 02:15:05</td>
 							                    <td>
 							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
 							                    </td>
