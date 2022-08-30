@@ -124,8 +124,8 @@
 							</div>
 							<div class="card-footer">
 								<br>
-								<a type="button" class="btn btn-secondary float-right"><i class="fa fa-lock"></i> Update Password</a>&nbsp;
-								<a type="button" class="btn btn-success float-right"><i class="fa fa-check"></i> Update Changes</a><br>
+								<a type="button" class="btn btn-secondary"><i class="fa fa-lock"></i> Update Password</a>&nbsp;
+								<a type="button" class="btn btn-success"><i class="fa fa-check"></i> Update Changes</a><br>
 							</div>
 						</div>
 					</div>
