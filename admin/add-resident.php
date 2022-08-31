@@ -54,11 +54,11 @@
 
 						      			<div class="card-body">
 						      				<div class="row">
-							      				<div class="col-3">
+							      				<div class="col-6">
 							      				<label>NATIONAL ID</label>
 							      				<input class="form-control"type="text" placeholder="" value="">
 							      				</div>
-							      				<div class="col-3">
+							      				<div class="col-6">
 							      				<div class="form-group">	
 								      					<label>HEAD</label>
 									      				<select class="form-control select2" name="">
@@ -67,14 +67,20 @@
 																</select>
 															</div>
 							      				</div>
-							      				<div class="col-3">
+							      				
+						      				</div>
+						      				<!------------><br>
+						      				<div class="row">
+
+						      					<div class="col-6">
 							      				<label>FAMILY ID</label>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
-							      				<div class="col-3">
+							      				<div class="col-6">
 							      				<label>SOCIAL MEDIA LINK</label>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
+
 						      				</div>
 						      				<!------------><br>
 						      				<div class="row">
