@@ -21,7 +21,7 @@
 		  </div>
  -->
 		  <div class="content-wrapper">
-		  		<section class="content-header">
+		  	<section class="content-header">
 		  	    <!-- Content Header (Page header) -->
 			    <div class="content-header">
 			      <div class="container-fluid">
@@ -46,19 +46,21 @@
 						<div class="row">
 
 
-						      	<div class="col-md-8">
-						      		<div class="card card-default">
+						      	<div class="col-6">
+						      		<div class="card card-primary">
 						      			<div class="card-header">
-												<h5><i class="fa fa-info-circle"></i> Personal Information</h5>
+												<i class="fa fa-info-circle"></i> Personal Information
 						      			</div>
 
 						      			<div class="card-body">
 						      				<div class="row">
-							      				<div class="col-6">
-							      				<label>NATIONAL ID</label>
-							      				<input class="form-control"type="text" placeholder="" value="">
+							      				<div class="col-sm-8">
+							      					<div class="form-group">
+									      				<label>NATIONAL ID</label>
+									      				<input class="form-control"type="text" placeholder="" value="">
+									      			</div>
 							      				</div>
-							      				<div class="col-6">
+							      				<div class="col-sm-4">
 							      				<div class="form-group">	
 								      					<label>HEAD</label>
 									      				<select class="form-control select2" name="">
@@ -67,35 +69,39 @@
 																</select>
 															</div>
 							      				</div>
-							      				
-						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-
-						      					<div class="col-6">
+							      				<!------------>
+							      				<div class="col-md-6 form-group">
 							      				<label>FAMILY ID</label>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
-							      				<div class="col-6">
+							      				<div class="col-6 form-group">
 							      				<label>SOCIAL MEDIA LINK</label>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
+							      				<!------------><br>
+							      				<div class="col-12 form-group">
+							      				<label>FIRST NAME</label><code>*</code>
+							      				<input class="form-control"type="text" placeholder="">
+							      				</div>
+							      				<div class="col-12 form-group">
+							      				<label>MIDDLE NAME</label><code>*</code>
+							      				<input class="form-control"type="text" placeholder="">
+							      				</div>
+							      				<div class="col-12 form-group">
+							      				<label>LAST NAME</label><code>*</code>
+							      				<input class="form-control"type="text" placeholder="">
+							      				</div>
+							      				
+						      				</div><!--- ROW --->
+						      				<!------------><br>
+						      				<div class="row">
+
+						      					
 
 						      				</div>
 						      				<!------------><br>
 						      				<div class="row">
-							      				<div class="col-4">
-							      				<label>FIRST NAME</label><code>*</code>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
-							      				<div class="col-4">
-							      				<label>MIDDLE NAME</label><code>*</code>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
-							      				<div class="col-4">
-							      				<label>LAST NAME</label><code>*</code>
-							      				<input class="form-control"type="text" placeholder="">
-							      				</div>
+							      				
 						      				</div>
 						      				<!------------><br>
 						      				<div class="row">
@@ -298,10 +304,10 @@
 						      		</div>
 						      	</div>
 
-						      	<div class="col-md-12">
-						      		<div class="card card-default">
+						      	<div class="col-6">
+						      		<div class="card card-success">
 						      			<div class="card-header">
-						      			<h5><i class="fa fa-home"></i> Residency Permanent Address</h5>
+						      			<i class="fa fa-home"></i> Residency Permanent Address
 						      			</div>
 						      			<div class="card-body">
 						 
@@ -361,37 +367,65 @@
 						      				
 						      			</div>
 						      		</div>
-						      	</div>
 
-						      	<div class="col-md-12">
-						      		<div class="card card-default">
+						      		<div class="card card-danger">
 						      			<div class="card-header">
-												<h5><i class="fa fa-phone"></i> Emergency Contact</h5>
+												<i class="fa fa-phone"></i> Emergency Contact
 						      			</div>
 						      			<div class="card-body">
 						      					<div class="row">
-							      					<div class="col-4">
-							      						<label>EMERGENCY CONTACT PERSON FULL NAME</label>
+							      					<div class="col-6">
+							      						<label>FULL NAME</label>
 									      				<input class="form-control"type="text" placeholder="">
 							      					</div>
-							      					<div class="col-4">
+							      					<div class="col-6">
 							      						<label>CONTACT NO</label>
 									      				<input class="form-control"type="text" placeholder="">
 							      					</div>
-							      					<div class="col-4">
+							      					
+							      				</div>
+							      				<br>
+							      				<div class="row">
+							      					<div class="col-12">
 							      						<label>HOME ADDRESS</label>
 									      				<input class="form-control"type="text" placeholder="">
 							      					</div>
 							      				</div>
 						      			</div>
+
+
+
 						      		</div>
-						      			
+
+						      		<div class="card card-default">
+						      			<div class="card-body">
+						      				<div class="col-6">
+						      					<div class="row">
+							      					<div class="form-check">
+						                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						                    <label class="form-check-label" for="exampleCheck1">I have read and agree to the <a href="#">Privacy Policy</a></label>
+						                  </div>
+
+						                  <br><br>
+									      		<a type="button" class="btn btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;Submit New Resident</a>
+					                	</div>
+									      		
+
+						      				</div>
+						      			</div>
+						      		</div>
+
+						      		
+						      	
+
+
+
 						      	</div>
 
-						      </div>
+						  </div>
 
 
-					<a type="button" class="btn-lg btn-success">+ Submit New Resident</a>
+					
 					</div><br>
 
 
