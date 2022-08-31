@@ -59,7 +59,7 @@
 				<section class="content">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-8">
+							<div class="col">
 								<div class="card">
 									<div class="card-header">
 										<h3 class="float-left">Barangay Setting</h3>
