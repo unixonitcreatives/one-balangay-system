@@ -80,6 +80,15 @@
                   <li class="list-group-item">
                     <b>Family ID</b> <a class="float-right">FN-01</a>
                   </li>
+
+                  <li class="list-group-item">
+                    <b>Contact No</b> <a class="float-right">0999 123 4567</a>
+                  </li>
+
+                  <li class="list-group-item">
+                    <b>Area</b> <a class="float-right">Purok 3</a>
+                  </li>
+
                   <li class="list-group-item">
                     <b>Social Media</b> <a class="float-right">@juandelacruz</a>
                   </li>
