@@ -59,7 +59,7 @@
 				<section class="content">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-8">
+							<div class="col">
 								<div class="card">
 									<div class="card-header">
 										<h3 class="float-left">Profile Setting</h3>
@@ -68,39 +68,34 @@
 
 										<div class="row">
 
-							      				<div class="col-6">
-							      				<div class="form-group">	
+							      				<div class="col-md-6 form-group">
 								      					<label>Usertype</label>
 									      				<select class="form-control select2" name="" disabled>
 																  <option value="1">Admin</option>
 																  <option value="2">Encoder</option>
 																</select>
-															</div>
-							      				</div>
-							      				<div class="col-6">
-							      				<label>Username</label>
-							      				<input class="form-control"type="text" placeholder="" value="vince">
 							      				</div>
 
-						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-							      				<div class="col-4">
+							      				<div class="col-md-6 form-group">
+							      				<label>Username</label>
+							      				<input class="form-control"type="text" placeholder="" value="vince">
+
+							      				</div>
+
+							      				<div class="col-md-4 form-group">
 							      				<label>FIRST NAME</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="" value="Vince">
 							      				</div>
-							      				<div class="col-4">
+							      				<div class="col-md-4 form-group">
 							      				<label>MIDDLE NAME</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="" value="Recto">
 							      				</div>
-							      				<div class="col-4">
+							      				<div class="col-md-4 form-group">
 							      				<label>LAST NAME</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="" value="Cachi">
 							      				</div>
-						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-							      				<div class="col-9">
+
+							      				<div class="col-md-9 form-group">
 							      				<label>BIRTHDATE</label> <i>mm/dd/yyy</i><code>*</code>
 								      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
 					                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" value="01/01/2000"/>
@@ -109,7 +104,7 @@
 					                        </div>
 					                    </div>
 							      				</div>
-							      				<div class="col-3">
+							      				<div class="col-md-3 form-group">
 							      				<label>AGE</label><code>&nbsp;autocompute</code>
 							      				<input class="form-control"type="text" placeholder="" value="22"disabled>
 							      				</div>

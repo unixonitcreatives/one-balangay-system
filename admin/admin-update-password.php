@@ -46,7 +46,7 @@
 						<div class="row">
 
 
-						      	<div class="col-md-12">
+						      	<div class="col">
 						      		<div class="card card-default">
 						      			<div class="card-header">
 												<h5><i class="fa fa-info-circle"></i> Account Information</h5>
@@ -55,17 +55,17 @@
 						      			<div class="card-body">
 						      				<div class="row">
 
-						      					<div class="col-4">
+						      					<div class="col-md-4 form-group">
 							      				<label>Please Enter Old Password</label>
 							      				<input class="form-control" type="password" placeholder="">
 							      				</div>
 							      				
-							      				<div class="col-4">
+							      				<div class="col-md-4 form-group">
 							      				<label>Enter New Password</label>
 							      				<input class="form-control" type="password" placeholder="">
 							      				</div>
 
-                            <div class="col-4">
+                            <div class="col-md-4 form-group">
                             <label>Retype New Password</label>
                             <input class="form-control" type="password" placeholder="">
                             </div>

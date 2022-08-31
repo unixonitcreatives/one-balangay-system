@@ -497,14 +497,19 @@
 			      			</div>
 			      			<div class="card-body">
 			      				
-				      					<div class="col-md-12">
-			                    <input type="checkbox" class="form-check-input form-group" id="exampleCheck1">
-			                    <label class="form-check-label" for="exampleCheck1">I have read and agreed to the <a href="#">Data Privacy Policy</a></label>
+
+			                  <div class="form-group mb-0">
+			                    <div class="custom-control custom-checkbox">
+			                      <input type="checkbox" name="terms" class="custom-control-input" id="exampleCheck1">
+			                      <label class="custom-control-label" for="exampleCheck1">I have read and agreed to the <a href="#">Data Privacy Policy</a>.</label>
+			                    </div>
 			                  </div>
-			                  
-			                  <div class="col-md-12">
-			                    <input type="checkbox" class="form-check-input form-group" id="exampleCheck2">
-			                    <label class="form-check-label" for="exampleCheck2">I have confirmed that all information stated above is true and correct</label>
+
+			                   <div class="form-group mb-0">
+			                    <div class="custom-control custom-checkbox">
+			                      <input type="checkbox" name="terms" class="custom-control-input" id="exampleCheck2">
+			                      <label class="custom-control-label" for="exampleCheck2">I have confirmed that all information stated above is true and correct.</label>
+			                    </div>
 			                  </div>
 
 			      			</div>
