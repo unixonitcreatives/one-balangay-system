@@ -40,7 +40,7 @@
             <div class="container-fluid">
               <div class="row mb-2">
                 <div class="col-sm-6">
-                  <h1 class="m-0">Resident Profile</h1>
+                  <h1 class="m-0">Edit Resident Profile</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                   <ol class="breadcrumb float-sm-right">
@@ -87,14 +87,8 @@
 
                 
 
-                <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#modal-default">
-                <b><i class="fa fa-file"></i>&nbsp;Print Certificate</b></a>
-
-                <a href="edit-resident.php" class="btn btn-primary btn-block"><b><i class="fa fa-edit"></i>&nbsp;Edit Profile</b></a>
-
-                <a href="#" class="btn btn-danger btn-block"><b><i class="fa fa-trash"></i>&nbsp;Delete Resident Record</b></a>
-
-                <a href="#" class="btn btn-secondary btn-block"><b><i class="fa fa-skull"></i>&nbsp;Deceased Resident</b></a>
+                <a href="view-resident.php" class="btn btn-success btn-block">
+                <b><i class="fa fa-check"></i>&nbsp;Update Changes</b></a>
               </div>
               <!-- /.card-body -->
             </div>
@@ -114,218 +108,223 @@
                     <div class="row">
                       <div class="col-md-4">
                         <div class="form-group">
-                          <dl>
-                                  <dt>NATIONAL ID</dt>
-                                  <dd>3412 3412 8694 2145</dd>
-                          </dl>
+                          <label>NATIONAL ID</label>
+                          <input class="form-control"type="text" placeholder="" value="">
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="form-group">
-                          <dl>
-                                  <dt>SSS ID</dt>
-                                  <dd>3412 3412 8694 2145</dd>
-                          </dl>
+                          <label>SSS ID</label>
+                          <input class="form-control"type="text" placeholder="" value="">
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="form-group">
-                          <dl>
-                                  <dt>TIN ID</dt>
-                                  <dd>3412 3412 8694 2145</dd>
-                          </dl>
+                          <label>TIN ID</label>
+                          <input class="form-control"type="text" placeholder="" value="">
                         </div>
                       </div>
 
                       <!------------>
                       <div class="col-md-4">
                         <div class="form-group">  
-                          <dl>
-                                  <dt>HEAD OF FAMILY</dt>
-                                  <dd>NO</dd>
-                          </dl>
+                          <label>HEAD</label>
+                          <select class="form-control select2" name="">
+                            <option value="">NO</option>
+                            <option value="">YES</option>
+                          </select>
                         </div>
                       </div>
 
                       <div class="col-md-8 form-group">
-                          <dl>
-                                  <dt>FAMILY ID</dt>
-                                  <dd>FN-01</dd>
-                          </dl>
+                      <label>FAMILY ID</label>
+                      <input class="form-control"type="text" placeholder="">
                       </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>CONTACT NO</dt>
-                                  <dd>0999 123 4567</dd>
-                          </dl>
+                      <div class="col-md-6 form-group">
+                      <label>CONTACT NO</label><code>*</code>
+                      <input class="form-control"type="text" placeholder="">
                       </div>
 
-                      <div class="col-md-8 form-group">
-                          <dl>
-                                  <dt>SOCIAL MEDIA LINK</dt>
-                                  <dd>@juandelacruz</dd>
-                          </dl>
+                      <div class="col-md-6 form-group">
+                      <label>SOCIAL MEDIA LINK</label>
+                      <input class="form-control"type="text" placeholder="">
                       </div>
                       <!------------><br>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>FIRST NAME</dt>
-                                  <dd>Juan</dd>
-                          </dl>
+                      <div class="col-md-12 form-group">
+                      <label>FIRST NAME</label><code>*</code>
+                      <input class="form-control"type="text" placeholder="">
                       </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>MIDDLE NAME</dt>
-                                  <dd>Santos</dd>
-                          </dl>
+                      <div class="col-md-12 form-group">
+                      <label>MIDDLE NAME</label><code>*</code>
+                      <input class="form-control"type="text" placeholder="">
                       </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>LAST NAME</dt>
-                                  <dd>Dela Cruz</dd>
-                          </dl>
+                      <div class="col-md-12 form-group">
+                      <label>LAST NAME</label><code>*</code>
+                      <input class="form-control"type="text" placeholder="">
                       </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>BIRTHDATE</dt>
-                                  <dd>01/01/2000</dd>
-                          </dl>
+                      <div class="col-md-6 form-group">
+                      <label>BIRTHDATE</label><code>*</code>&nbsp;<i>mm/dd/yyyy</i>
+                        <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                            <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
+                            <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                            </div>
+                        </div>
                       </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>AGE</dt>
-                                  <dd>22</dd>
-                          </dl>
-                      </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>PLACE OF BIRTH</dt>
-                                  <dd>Manila</dd>
-                          </dl>
-                      </div>
-
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>GENDER</dt>
-                                  <dd>Male</dd>
-                          </dl>
+                      <div class="col-md-6 form-group">
+                      <label>AGE</label><code>*</code>&nbsp;<i>auto-compute</i>
+                      <input class="form-control"type="text" placeholder="" disabled>
                       </div>
                       <div class="col-md-8 form-group">
-                          <dl>
-                                  <dt>CIVIL STATUS</dt>
-                                  <dd>Married</dd>
-                          </dl>
-                      </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>NATIONALITY</dt>
-                                  <dd>Filipino</dd>
-                          </dl>
-                      </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>RELIGION</dt>
-                                  <dd>Catholic</dd>
-                          </dl>
-                      </div>
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>EDUCATIONAL ATTAINMENT</dt>
-                                  <dd>Highschool</dd>
-                          </dl>
+                      <label>PLACE OF BIRTH</label><code>*</code>
+                      <input class="form-control"type="text" placeholder="">
                       </div>
 
                       <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>EMPLOYMENT STATUS</dt>
-                                  <dd>Employed</dd>
-                          </dl>
+                          <label>GENDER</label><code>*</code>
+                          <select class="form-control select2" name="">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                          </select>
+                      </div>
+                      <div class="col-md-4 form-group">
+                          <label>CIVIL STATUS</label><code>*</code>
+                          <select class="form-control select2" name="">
+                            <option value="">Single</option>
+                            <option value="">Married</option>
+                            <option value="">Widowed</option>
+                          </select>
+                      </div>
+                      <div class="col-md-4 form-group">
+                          <label>NATIONALITY</label><code>*</code>
+                          <select class="form-control select2" name="">
+                            <option value="">Filipino</option>
+                            <option value="">American</option>
+                            <option value="">Others</option>
+                          </select>
+                      </div>
+                      <div class="col-md-4 form-group">
+                          <label>RELIGION</label><code>*</code>
+                          <select class="form-control select2" name="">
+                            <option value="">Catholic</option>
+                            <option value="">Muslim</option>
+                            <option value="">None</option>
+                          </select>
+                      </div>
+                      <div class="col-md-4 form-group">
+                          <label>EDUCATIONAL ATTAINMENT</label><code>*</code>
+                          <select class="form-control select2" name="">
+                            <option value="">Elementary</option>
+                            <option value="">Secondary</option>
+                            <option value="">Vocational</option>
+                            <option value="">Bachelor's Degree</option>
+                            <option value="">Master's Degree</option>
+                            <option value="">PHD Degree</option>
+                            <option value="">None</option>
+                          </select>
                       </div>
 
                       <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>PRESENT JOB</dt>
-                                  <dd>Traffic Enforcer</dd>
-                          </dl>
+                          <label>EMPLOYMENT STATUS</label><code>*</code>
+                          <select class="form-control select2" name="">
+                            <option value="">Unemployed</option>
+                            <option value="">Employed</option>
+                            <option value="">Business Owner</option>
+                          </select>
                       </div>
 
                       <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>VOTER STATUS</dt>
-                                  <dd>Registered</dd>
-                          </dl>
-                      </div>
-
-                      
-
-                      <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>PWD</dt>
-                                  <dd>NO</dd>
-                          </dl>
-                      </div>
-
-                      <div class="col-md-8 form-group">
-                          <dl>
-                                  <dt>4P's</dt>
-                                  <dd>NO</dd>
-                          </dl>
+                      <label>PRESENT JOB</label>
+                      <input class="form-control"type="text" placeholder="">
                       </div>
 
                       <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>BLOOD TYPE</dt>
-                                  <dd>O</dd>
-                          </dl>
-                      </div>
-
-                      <div class="col-md-8 form-group">
-                          <dl>
-                                  <dt>DONOR?</dt>
-                                  <dd>Yes</dd>
-                          </dl>
+                        <label>VOTER STATUS</label><code>*</code>
+                        <select class="form-control select2" name="">
+                          <option value="">Unregistered</option>
+                          <option value="">Registered</option>
+                        </select>
                       </div>
 
                       <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>YOUTH MEMBER</dt>
-                                  <dd>Yes</dd>
-                          </dl>
-                      </div>
-
-                      <div class="col-md-8 form-group">
-                          <dl>
-                                  <dt>SK VOTER</dt>
-                                  <dd>Yes</dd>
-                          </dl>
+                        <label>VOTER's ID | (PRECINT NUMBER)</label>
+                        <input class="form-control"type="text" placeholder="">
                       </div>
 
                       <div class="col-md-4 form-group">
-                          <dl>
-                                  <dt>VOTER's ID | (PRECINT NUMBER)</dt>
-                                  <dd>7501-00191-C145BCD</dd>
-                          </dl>
+                        <label>PWD</label><code>*</code>
+                        <select class="form-control select2" name="">
+                          <option value="">NO</option>
+                          <option value="">YES</option>
+                        </select>
                       </div>
 
-                      <div class="col-md-8 form-group">
-                          <dl>
-                                  <dt>INCOME per MONTH</dt>
-                                  <dd>5,000 - 25,000</dd>
-                          </dl>
+                      <div class="col-md-4 form-group">
+                        <label>4P's</label><code>*</code>
+                        <select class="form-control select2" name="">
+                          <option value="">NO</option>
+                          <option value="">YES</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-4 form-group">
+                        <label>BLOOD TYPE</label><code>*</code>
+                        <select class="form-control select2" name="">
+                          <option value="">O</option>
+                          <option value="">A</option>
+                          <option value="">B</option>
+                          <option value="">AB</option>
+                          <option value="">NA</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-4 form-group">
+                        <label>DONOR?</label><code>*</code>
+                        <select class="form-control select2" name="">
+                          <option value="">YES</option>
+                          <option value="">NO</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-4 form-group">
+                        <label>YOUTH MEMBER</label>
+                        <select class="form-control select2" name="">
+                          <option value="">NO</option>
+                          <option value="">YES</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-4 form-group">
+                        <label>SK VOTER</label>
+                        <select class="form-control select2" name="">
+                          <option value="">NO</option>
+                          <option value="">YES</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-4 form-group">
+                        <label>INCOME per MONTH</label>
+                        <select class="form-control select2" name="">
+                          <option value="">0 - 500</option>
+                          <option value="">500 - 5,000</option>
+                          <option value="">5000 - 25,000</option>
+                          <option value="">25,000 - 50,000</option>
+                          <option value="">50,000 - 500,000</option>
+                          <option value="">500,000+</option>
+                        </select>
                       </div>
 
                       <div class="col-md-4 form-group"> 
-                          <dl>
-                                  <dt>MORAL</dt>
-                                  <dd>Yes</dd>
-                          </dl>
+                        <label>MORAL</label>
+                        <select class="form-control select2" name="">
+                          <option value="">YES</option>
+                          <option value="">NO</option>
+                        </select>
                       </div>
 
                       <div class="col-md-8 form-group">
-                          <dl>
-                                  <dt>TAGS</dt>
-                                  <dd></dd>
-                          </dl>
+                        <label>TAGS</label>
+                        <input class="form-control"type="text" placeholder="">
                       </div>
                       
                     </div><!--- ROW --->
@@ -344,44 +343,47 @@
            
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <dl>
-                                  <dt>HOME ADDRESS</dt>
-                                  <dd>asdasd</dd>
-                                </dl>
+                              <label>HOME ADDRESS</label><code>*</code>
+                              <input class="form-control"type="text" placeholder="">
                             </div>
                             <div class="col-md-6 form-group">
-                                  <dl>
-                                  <dt>AREA</dt>
-                                  <dd>Purok 3</dd>
-                                 </dl>
+                                <label>AREA</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value="">Purok 1</option>
+                                  <option value="">Purok 2</option>
+                                  <option value="">Purok 3</option>
+                                  <option value="">Purok 4</option>
+                                  <option value="">Purok 5</option>
+                                  <option value="">Purok 6</option>
+                                </select>
                             </div>
                           
                             <div class="col-md-6 form-group">
-                                <dl>
-                                  <dt>BARANGAY</dt>
-                                  <dd>46</dd>
-                                </dl>
+                              <label>BARANGAY</label><code>*</code>
+                              <input class="form-control"type="text" placeholder="This Barangay" disabled>
                             </div>
 
                             <div class="col-md-6 form-group">
-                                <dl>
-                                  <dt>CITY / MUNICIPALITY</dt>
-                                  <dd>Pasay City</dd>
-                                </dl>
+                              <label>CITY / MUNICIPALITY / PROVINCE</label><code>*</code>
+                              <input class="form-control"type="text" placeholder="This City/Municipality/Province" disabled>
                             </div>
                         
                             <div class="col-md-6 form-group">
-                                <dl>
-                                  <dt>RESIDENCY STATUS</dt>
-                                  <dd>Permanent</dd>
-                                </dl>
+                                <label>RESIDENCY STATUS</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value="">Permanent</option>
+                                  <option value="">Temporary</option>
+                                </select>
                             </div>
 
                             <div class="col-md-6 form-group">
-                                <dl>
-                                  <dt>RESIDENCE SINCE</dt>
-                                  <dd>01/01/2000</dd>
-                                </dl>
+                              <label>RESIDENCE SINCE</label> <i>mm/dd/yyyy</i><code>*</code>
+                              <div class="input-group date" id="residencesince" data-target-input="nearest">
+                                <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
+                                <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
+                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                </div>
+                            </div>
                             </div>
                         
                         </div>
@@ -392,6 +394,28 @@
                       </div>
                     </div>
 
+                    <div class="col-md-12">
+                      <div class="card card-default">
+                        <div class="card-header">
+                        <h5><i class="fa fa-phone"></i> Emergency Contact</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                              <div class="col-4">
+                                <label>EMERGENCY CONTACT PERSON FULL NAME</label>
+                                <input class="form-control"type="text" placeholder="" value="Juana Dela Cruz">
+                              </div>
+                              <div class="col-4">
+                                <label>CONTACT NO</label>
+                                <input class="form-control"type="text" placeholder="" value="09224567890">
+                              </div>
+                              <div class="col-4">
+                                <label>HOME ADDRESS</label>
+                                <input class="form-control"type="text" placeholder="" value="Blk 4 Lot 5 Tramo St.">
+                              </div>
+                            </div>
+                        </div>
+                      </div>
 
             <div class="col">
                 <div class="card card-danger">
@@ -401,25 +425,20 @@
                       <div class="card-body">
                           <div class="row">
                             <div class="col-md-6 form-group">
-                               <dl>
-                                  <dt>FULL NAME</dt>
-                                  <dd>Juana Dela Cruz</dd>
-                                </dl>
+                              <label>FULL NAME</label>
+                              <input class="form-control"type="text" placeholder="">
                             </div>
                             <div class="col-md-6 form-group">
-                              <dl>
-                                  <dt>CONTACT NO</dt>
-                                  <dd>0999 123 4567</dd>
-                              </dl>
+                              <label>CONTACT NO</label>
+                              <input class="form-control"type="text" placeholder="">
                             </div>
 
                             <div class="col-md-12 form-group">
-                              <dl>
-                                  <dt>HOME ADDRESS</dt>
-                                  <dd>123 New York St.</dd>
-                              </dl>
+                              <label>HOME ADDRESS</label>
+                              <input class="form-control"type="text" placeholder="">
                             </div>
                           </div>
+                          <br>
                       </div>
                   </div>
                 </div>
@@ -433,105 +452,112 @@
                       <div class="card-body">
                           <div class="row">
                             <div class="col-md-4 form-group">
-                                <dl>
-                                  <dt>1. VACCINE MANUFACTURER</dt>
-                                  <dd>Pfizer</dd>
-                              </dl>
+                                <label>1. VACCINE MANUFACTURER</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value=""></option>
+                                  <option value="">Pfizer</option>
+                                  <option value="">Astrazeneca</option>
+                                  <option value="">Moderna</option>
+                                  <option value="">Sinovac</option>
+                                  <option value="">Johnson & Johnson's</option>
+                                </select>
                             </div>
 
                             <div class="col-md-4 form-group">
-                                <dl>
-                                  <dt>DOSE</dt>
-                                  <dd>1st Dose</dd>
-                              </dl>
+                                <label>DOSE</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value=""></option>
+                                  <option value="">1st Dose</option>
+                                  <option value="">2nd Dose</option>
+                                  <option value="">3rd Dose</option>
+                                  <option value="">Booster Dose</option>
+                                </select>
                             </div>
 
                             <div class="col-md-4 form-group">
-                              <dl>
-                                  <dt>DATE</dt>
-                                  <dd>01/01/2021</dd>
-                              </dl>
+                              <label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
+                              <div class="input-group date" id="vaccine1" data-target-input="nearest">
+                                <input type="text" class="form-control datetimepicker-input" data-target="#vaccine1"/>
+                                <div class="input-group-append" data-target="#vaccine1" data-toggle="datetimepicker">
+                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                </div>
+                            </div>
                             </div>
 
                             <div class="col-md-4 form-group">
-                                <dl>
-                                  <dt>2. VACCINE MANUFACTURER</dt>
-                                  <dd>Pfizer</dd>
-                              </dl>
+                                <label>2. VACCINE MANUFACTURER</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value=""></option>
+                                  <option value="">Pfizer</option>
+                                  <option value="">Astrazeneca</option>
+                                  <option value="">Moderna</option>
+                                  <option value="">Sinovac</option>
+                                  <option value="">Johnson & Johnson's</option>
+                                </select>
                             </div>
 
                             <div class="col-md-4 form-group">
-                                <dl>
-                                  <dt>DOSE</dt>
-                                  <dd>2nd Dose</dd>
-                              </dl>
+                                <label>DOSE</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value=""></option>
+                                  <option value="">1st Dose</option>
+                                  <option value="">2nd Dose</option>
+                                  <option value="">3rd Dose</option>
+                                  <option value="">Booster Dose</option>
+                                </select>
                             </div>
 
                             <div class="col-md-4 form-group">
-                              <dl>
-                                  <dt>DATE</dt>
-                                  <dd>07/01/2021</dd>
-                              </dl>
+                              <label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
+                              <div class="input-group date" id="vaccine2" data-target-input="nearest">
+                                <input type="text" class="form-control datetimepicker-input" data-target="#vaccine2"/>
+                                <div class="input-group-append" data-target="#vaccine2" data-toggle="datetimepicker">
+                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                </div>
+                            </div>
                             </div>
 
                             <div class="col-md-4 form-group">
-                                <dl>
-                                  <dt>3. VACCINE MANUFACTURER</dt>
-                                  <dd>Pfizer</dd>
-                              </dl>
+                                <label>3. VACCINE MANUFACTURER</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value=""></option>
+                                  <option value="">Pfizer</option>
+                                  <option value="">Astrazeneca</option>
+                                  <option value="">Moderna</option>
+                                  <option value="">Sinovac</option>
+                                  <option value="">Johnson & Johnson's</option>
+                                </select>
                             </div>
 
                             <div class="col-md-4 form-group">
-                                <dl>
-                                  <dt>DOSE</dt>
-                                  <dd>Booster Dose</dd>
-                              </dl>
+                                <label>DOSE</label><code>*</code>
+                                <select class="form-control select2" name="">
+                                  <option value=""></option>
+                                  <option value="">1st Dose</option>
+                                  <option value="">2nd Dose</option>
+                                  <option value="">3rd Dose</option>
+                                  <option value="">Booster Dose</option>
+                                </select>
                             </div>
 
                             <div class="col-md-4 form-group">
-                              <dl>
-                                  <dt>DATE</dt>
-                                  <dd>01/01/2022</dd>
-                              </dl>
+                              <label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
+                              <div class="input-group date" id="vaccine3" data-target-input="nearest">
+                                <input type="text" class="form-control datetimepicker-input" data-target="#vaccine3"/>
+                                <div class="input-group-append" data-target="#vaccine3" data-toggle="datetimepicker">
+                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                </div>
                             </div>
+                            </div>
+
+
 
                             
                           </div>
-                     </div>
+                          <br>
+                      </div>
                   </div>
-                </div>   
-
-
-            <div class="col">
-                <div class="card card-secondary">
-                  <div class="card-header">
-                    <i class="fa fa-info"></i> Other Details
-                  </div>
-                  <div class="card-body">
-                    
-                        <div class="col-4">
-                              <dl>
-                                  <dt>CREATED BY</dt>
-                                  <dd><strong>(ENCODER-0001)</strong> pedrodenduko</dd>
-                              </dl>
-                        </div>
-                        
-                        <div class="col-md-8">
-                              <dl>
-                                  <dt>CREATED AT</dt>
-                                  <dd>08-30-2022 02:00:00</dd>
-                              </dl>
-                        </div>
-
-                  </div>
-
-                  <div class="card-footer">
-                    <a type="button" class="btn btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;Submit New Resident</a>
-                  </div>
-
-                </div>
-              </div>
-            
+                </div>          
            
 
 

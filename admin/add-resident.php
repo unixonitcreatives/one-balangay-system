@@ -380,7 +380,7 @@
 					      			<div class="card-body">
 					      					<div class="row">
 						      					<div class="col-md-4 form-group">
-								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+								      					<label>1. VACCINE MANUFACTURER</label><code>*</code>
 									      				<select class="form-control select2" name="">
 									      					<option value=""></option>
 																  <option value="">Pfizer</option>
@@ -392,7 +392,7 @@
 							      				</div>
 
 							      				<div class="col-md-4 form-group">
-								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+								      					<label>DOSE</label><code>*</code>
 									      				<select class="form-control select2" name="">
 									      					<option value=""></option>
 																  <option value="">1st Dose</option>
@@ -413,7 +413,7 @@
 						      					</div>
 
 						      					<div class="col-md-4 form-group">
-								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+								      					<label>2. VACCINE MANUFACTURER</label><code>*</code>
 									      				<select class="form-control select2" name="">
 									      					<option value=""></option>
 																  <option value="">Pfizer</option>
@@ -425,7 +425,7 @@
 							      				</div>
 
 							      				<div class="col-md-4 form-group">
-								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+								      					<label>DOSE</label><code>*</code>
 									      				<select class="form-control select2" name="">
 									      					<option value=""></option>
 																  <option value="">1st Dose</option>
@@ -446,7 +446,7 @@
 						      					</div>
 
 						      					<div class="col-md-4 form-group">
-								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+								      					<label>3. VACCINE MANUFACTURER</label><code>*</code>
 									      				<select class="form-control select2" name="">
 									      					<option value=""></option>
 																  <option value="">Pfizer</option>
@@ -458,7 +458,7 @@
 							      				</div>
 
 							      				<div class="col-md-4 form-group">
-								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+								      					<label>DOSE</label><code>*</code>
 									      				<select class="form-control select2" name="">
 									      					<option value=""></option>
 																  <option value="">1st Dose</option>
