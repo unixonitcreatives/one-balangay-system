@@ -515,7 +515,7 @@
 			      			</div>
 
 			      			<div class="card-footer">
-			      				<a type="button" class="btn btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;Submit New Resident</a>
+			      				<a href="" type="button" class="btn btn-success notif"><i class="fa fa-plus"></i>&nbsp;&nbsp;Submit New Resident</a>
 			      			</div>
 
 			      		</div>
@@ -540,6 +540,24 @@
     $('.select2bs4').select2({
       theme: 'bootstrap4'
     })
+
+    var Toast = Swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      /*timer: 3000
+      location:'resident.php';*/
+    });
+
+    $('.notif').click(function() {
+      Toast.fire({
+        icon: 'success',
+        title: 'Success!',
+        text: 'New record added.',
+        type: 'success'
+      })/*.then(function() {
+    	window.location = "resident.php";*/
+    });
 
     //Datemask dd/mm/yyyy
     $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })

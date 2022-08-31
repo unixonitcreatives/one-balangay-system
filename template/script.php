@@ -47,3 +47,6 @@
 <script src="../plugins/bs-stepper/js/bs-stepper.min.js"></script>
 <!-- dropzonejs -->
 <script src="../plugins/dropzone/min/dropzone.min.js"></script>
+
+<!-- SweetAlert2 -->
+<script src="../plugins/sweetalert2/sweetalert2.min.js"></script>
