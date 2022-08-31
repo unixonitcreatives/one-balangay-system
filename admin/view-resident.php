@@ -525,10 +525,6 @@
 
                   </div>
 
-                  <div class="card-footer">
-                    <a type="button" class="btn btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;Submit New Resident</a>
-                  </div>
-
                 </div>
               </div>
             
