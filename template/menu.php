@@ -54,6 +54,7 @@
                   <i class="nav-icon fas fa-users"></i>
                   <p>
                     Residents*
+                    <span class="right badge badge-success">New!</span>
                     
                   </p>
                 </a>
@@ -67,7 +68,7 @@
                 Households
 
 
-                <!-- <span class="right badge badge-danger">New</span> -->
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
               </p>
             </a>
           </li>
@@ -77,7 +78,7 @@
               <i class="nav-icon fas fa-store"></i>
               <p>
                 Business
-                <!-- <span class="right badge badge-danger">New</span> -->
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
               </p>
             </a>
           </li>
@@ -87,7 +88,7 @@
               <i class="nav-icon fas fa-map"></i>
               <p>
                 Area*
-                <!-- <span class="right badge badge-danger">New</span> -->
+                <span class="right badge badge-success">New!</span>
               </p>
             </a>
           </li>
@@ -97,26 +98,110 @@
               <i class="nav-icon fas fa-building"></i>
               <p>
                 Properties
-                <!-- <span class="right badge badge-danger">New</span> -->
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
               </p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-suitcase"></i>
+              <p>
+                Employee
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-graduation-cap"></i>
+              <p>
+                Scholars
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-flag"></i>
+              <p>
+                Cases
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
+              </p>
+            </a>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Summary
-                <!-- <span class="right badge badge-danger">New</span> -->
+                Transactions
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-image"></i>
+              <p>
+                Files & Media
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-money-bill"></i>
+              <p>
+                Budget & Expenses
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
               </p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="admin-settings.php" class="nav-link">
-              <i class="nav-icon fas fa-cogs"></i>
+              <i class="nav-icon fas fa-phone"></i>
+              <p>
+                Emergency Hotline
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
+              </p>
+            </a>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-bar"></i>
+              <p>
+                Summary
+                <!-- <span class="right badge badge-danger">Soon!</span> -->
+              </p>
+            </a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a href="admin-settings.php" class="nav-link">
+              <i class="nav-icon fas fa-cog"></i>
               <p>
                 Settings*
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="activity-log.php" class="nav-link">
+              <i class="nav-icon fas fa-desktop"></i>
+              <p>
+                Sessions & Activity Logs*
+                <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
           </li>
@@ -129,11 +214,6 @@
               </p>
             </a>
           </li>
-
-
-
-          
-         
 
       </nav>
       <!-- /.sidebar-menu -->

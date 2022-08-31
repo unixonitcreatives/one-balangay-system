@@ -110,6 +110,24 @@
 						</div>
 						<!--------------------->
 					</div>
+
+					<div class="container-fluid">
+						<div class="row">
+
+							<div class="col">
+
+								<div class="card">
+									<div class="card-header">
+									<i class="fa fa-info-google"></i> Map Location	
+									</div>
+									<div class="card-body">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.8663857646795!2d120.99834315830005!3d14.55726829356033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c970735de7f3%3A0x56f2d763d53ac1b8!2s46%2C%20Pasay%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1661970721398!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 		   </section>
 
 		   </div>

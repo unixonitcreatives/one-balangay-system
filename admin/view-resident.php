@@ -103,7 +103,6 @@
 
                 <a href="#" class="btn btn-danger btn-block"><b><i class="fa fa-trash"></i>&nbsp;Delete Resident Record</b></a>
 
-                <a href="#" class="btn btn-secondary btn-block"><b><i class="fa fa-skull"></i>&nbsp;Deceased Resident</b></a>
               </div>
               <!-- /.card-body -->
             </div>
@@ -330,10 +329,17 @@
                           </dl>
                       </div>
 
-                      <div class="col-md-8 form-group">
+                      <div class="col-md-4 form-group">
                           <dl>
                                   <dt>TAGS</dt>
                                   <dd></dd>
+                          </dl>
+                      </div>
+
+                      <div class="col-md-4 form-group">
+                          <dl>
+                                  <dt>DECEASED?</dt>
+                                  <dd>NO</dd>
                           </dl>
                       </div>
                       

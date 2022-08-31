@@ -1,5 +1,5 @@
   <footer class="main-footer">
-    <strong>Copyright &copy; 2022 <a href="#">Unixon IT Solutions</a>.</strong>
+    <strong>Copyright &copy; 2022 <a href="#">One Balangay Ph</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 3.2.0

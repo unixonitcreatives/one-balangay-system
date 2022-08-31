@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php $title = "Admin | Settings"; ?>
+<?php $title = "Admin | Activity Log"; ?>
 <?php $subTitle = "One Balangay Ph"; ?>
 <?php $account = "vince - Administrator"; ?>
 <?php $breadcrumb = "Brgy 46, Pasay City"; ?>
@@ -40,7 +40,7 @@
 			      <div class="container-fluid">
 			        <div class="row mb-2">
 			          <div class="col-sm-6">
-			            <h1 class="m-0">Settings	</h1>
+			            <h1 class="m-0">Sessions & Activity Log</h1>
 			          </div><!-- /.col -->
 			          <div class="col-sm-6">
 			            <ol class="breadcrumb float-sm-right">
@@ -57,7 +57,7 @@
 
 
 				<section class="content">
-					<div class="container-fluid">
+					<!-- <div class="container-fluid">
 						<div class="row">
 							<div class="col">
 								<div class="card">
@@ -115,7 +115,7 @@
 								<a type="button" class="btn btn-success"><i class="fa fa-check"></i> Update Changes</a><br>
 							</div>
 						</div>
-					</div>
+					</div> -->
 
 				
 
@@ -124,206 +124,84 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-header">
-													 <h3 class="float-left">Accounts Master List</h3>
-						               <a type="button" class="btn btn-success float-right" href="add-account.php"><i class="fa fa-plus"></i>&nbsp;Add new account</a>
-						            </div>
+									<h3 class="float-left">Logs</h3>
+									</div>
 						            <div class="card-body">
-
-														<div class="alert alert-info alert-dismissible">
-									            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-									            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
-									            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
-									          </div>
-									   
 						            		<table id="example1" class="table table-striped">
 							                  <thead class=>
 							                  <tr>
-							                    <th>ID</th>
-							                    <th>Usertype</th>
-							                    <th>Username</th>
+							                    <th>Log</th>
+							                    <th>Detail</th>
+							                    <th>IP</th>
 							                    <th>Created by</th>
-							                    <th>Created at</th>
-
-							                    <th>Action</th>
+							                    <th>Timestamp</th>
 							                  </tr>
 							                  </thead>
 							                  <tbody>
 							                  <tr>
-							                    <td>ADMIN-0001</td>
-							                    <?php
-							                    //ADMIN ID FORMAT: ADMN-0001 
-							                    //ENCODER ID FORMAT: ENCODER-0001
-							                    ?>
-							                    <td>Admin</td>
-							                    <td>vince</td>
-							                    <td>Superadmin</td>
-							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-
-
-							                    </td>
-							                  </tr>
-
-							                  <tr>
-							                    <td>ADMIN-0002</td>
-							                    <?php
-							                    //ADMIN ID FORMAT: ADMN-0001 
-							                    //ENCODER ID FORMAT: ENCODER-0001
-							                    ?>
-							                    <td>Admin</td>
-							                    <td>joff</td>
-							                    <td>Superadmin</td>
-							                    <td>08-30-2022 02:00:02</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-
-							                    
-							                    </td>
-							                  </tr>
-
-							                  <tr>
-							                    <td>ADMIN-0003</td>
-							                    <?php
-							                    //ADMIN ID FORMAT: ADMN-0001 
-							                    //ENCODER ID FORMAT: ENCODER-0001
-							                    ?>
-							                    <td>Admin</td>
-							                    <td>lance</td>
-							                    <td>Superadmin</td>
-							                    <td>08-30-2022 02:00:05</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-
-							                    </td>
-							                  </tr>
-
-							                   <tr>
-							                    <td>ENCODER-0001</td>
-							                    <?php
-							                    //ADMIN ID FORMAT: ADMN-0001 
-							                    //ENCODER ID FORMAT: ENCODER-0001
-							                    ?>
-							                    <td>Encoder</td>
-							                    <td>pedropenduko</td>
-							                    <td><strong>(ADMIN-0001)</strong>&nbsp;vince</td>
-							                    <td>08-30-2022 02:15:05</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-
-							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-							                    </td>
-							                  </tr>
-							                  
-							                  </tbody>
-							                  <!-- <tfoot>
-							                  <tr>
-							                    <th>Rendering engine</th>
-							                    <th>Browser</th>
-							                    <th>Platform(s)</th>
-							                    <th>Engine version</th>
-							                    <th>CSS grade</th>
-							                  </tr>
-							                  </tfoot> -->
-							                </table>
-
-						            </div>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-12">
-								<div class="card">
-									<div class="card-header">
-													 <h3 class="float-left">Board Member List</h3>
-						               <a type="button" class="btn btn-success float-right" href="add-board-member.php"><i class="fa fa-plus"></i>&nbsp;Add New Board Member</a>
-						            </div>
-						            <div class="card-body">
-
-														<div class="alert alert-warning alert-dismissible">
-									            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-									            <h5><i class="icon fas fa-info"></i> Coming soon!</h5>
-									            System is still under development, this feature is coming soon! Please contact technical support @ xxx xxxx xxxx for more info.
-									       		</div>
-									   
-						            		<table id="example1" class="table table-striped">
-							                  <thead class=>
-							                  <tr>
-							                    <th>Department</th>
-							                    <th>Position</th>
-							                    <th>First Name</th>
-							                    <th>Last Name</th>
-							                    <th>Contact No:</th>
-							                    <th>Added by</th>
-							                    <th>Created at</th>
-
-							                    <th>Action</th>
-							                  </tr>
-							                  </thead>
-							                  <tbody>
-							                  <tr>
-							                    <td>Barangay</td>
-							                    <td>Chairman</td>
-							                    <td>Bongbong</td>
-							                    <td>Marcos Jr.</td>
-							                    <td>0991 123 45678</td>
+							                    <td>Added new resident</td>
+							                    <td>(RES-5341623) Antonio Luna</td>
+							                    <td>192.168.1.1</td>
 							                    <td><strong>(ADMIN-0001)</strong> vince</td>
 							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="View Residency" class="btn-sm btn-primary" href="#"><i class="fa fa-user"></i></a>
-							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-							                    </td>
 							                  </tr>
 
 							                  <tr>
-							                    <td>Education</td>
-							                    <td>Chairwoman</td>
-							                    <td>Sarah</td>
-							                    <td>Duterte</td>
-							                    <td>0991 123 45678</td>
+							                    <td>Added new resident</td>
+							                    <td>(RES-5395623) Juan Luna</td>
+							                    <td>192.168.1.1</td>
 							                    <td><strong>(ADMIN-0001)</strong> vince</td>
 							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="View Residency" class="btn-sm btn-primary" href="#"><i class="fa fa-user"></i></a>
-							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-							                    </td>
 							                  </tr>
 
 							                  <tr>
-							                    <td>Barangay</td>
-							                    <td>Treasurer</td>
-							                    <td>Imelda</td>
-							                    <td>Marcos</td>
-							                    <td>0991 123 45678</td>
+							                    <td>Deleted a resident</td>
+							                    <td>(RES-2395443) Jose Rizal</td>
+							                    <td>192.168.1.1</td>
 							                    <td><strong>(ADMIN-0001)</strong> vince</td>
 							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="View Residency" class="btn-sm btn-primary" href="#"><i class="fa fa-user"></i></a>
-							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-							                    </td>
 							                  </tr>
 
 							                  <tr>
-							                    <td>Barangay</td>
-							                    <td>Secretary</td>
-							                    <td>Imee</td>
-							                    <td>Marcos</td>
-							                    <td>0991 123 45678</td>
+							                    <td>Updated resident details</td>
+							                    <td>(RES-2395443) Jose Rizal</td>
+							                    <td>192.168.1.1</td>
 							                    <td><strong>(ADMIN-0001)</strong> vince</td>
 							                    <td>08-30-2022 02:00:00</td>
-							                    <td>
-							                    	<a type="button" title="View Account" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="View Residency" class="btn-sm btn-primary" href="#"><i class="fa fa-user"></i></a>
-							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
-							                    </td>
 							                  </tr>
+
+							                  <tr>
+							                    <td>Updated resident details</td>
+							                    <td>(RES-2395443) Jose Rizal</td>
+							                    <td>192.168.1.1</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>Added new area</td>
+							                    <td>Purok 8</td>
+							                    <td>192.168.1.1</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>Added new account</td>
+							                    <td>(ENCODER-0005) Carlos Garcia</td>
+							                    <td>192.168.1.1</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>Printed Brgy Clearance</td>
+							                    <td>(RES-2395443) Jose Rizal</td>
+							                    <td>192.168.1.1</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                  </tr>
+
 
 							                  
 							                  </tbody>
@@ -344,7 +222,6 @@
 						</div>
 						
 					</div>
-
 					
 				</section>
 		  </div>

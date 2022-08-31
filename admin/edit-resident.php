@@ -331,10 +331,20 @@
                         </select>
                       </div>
 
-                      <div class="col-md-8 form-group">
+                      <div class="col-md-4 form-group">
                         <label>TAGS</label>
                         <input class="form-control"type="text" placeholder="">
                       </div>
+
+                      <div class="col-md-4 form-group">
+                        <label>DECEASED?</label>
+                        <select class="form-control select2" name="">
+                          <option value="">NO</option>
+                          <option value="">YES</option>
+                        </select>
+                      </div>
+
+
                       
                     </div><!--- ROW --->
 
