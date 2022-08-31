@@ -68,8 +68,7 @@
 
 										<div class="row">
 
-							      				<div class="col-6">
-							      				<div class="form-group">	
+							      				<div class="col-md-6 form-group">
 								      					<label>Province/State</label>
 									      				<select class="form-control select2" name="">
 																  <option value="1">NCR</option>
@@ -77,11 +76,9 @@
 																  <option value="2">Laguna</option>
 																  <option value="3">And so on...</option>
 																</select>
-															</div>
 							      				</div>
 
-							      				<div class="col-6">
-							      				<div class="form-group">	
+							      				<div class="col-md-6 form-group">
 								      					<label>City/Municipality</label>
 									      				<select class="form-control select2" name="">
 																  <option value="1">Pasay City</option>
@@ -89,25 +86,19 @@
 																  <option value="3">Manila City</option>
 																  <option value="4">And so on...</option>
 																</select>
-															</div>
 							      				</div>
-						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-						      					<div class="col-12">
+
+							      				<div class="col-md-12 form-group">
 							      				<label>BRGY HALL Complete Address</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
 
-						      				</div>
-						      				<!------------><br>
-						      				<div class="row">
-						      					<div class="col-6">
+							      				<div class="col-md-6">
 							      				<label>Tel No</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
 
-							      				<div class="col-6">
+							      				<div class="col-md-6">
 							      				<label>Contact No</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
