@@ -89,6 +89,23 @@
 				      				<label>LAST NAME</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
+				      				<div class="col-2">
+				      				<label>BIRTHDATE</label><code>*</code>
+					      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
+		                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
+		                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+		                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+		                        </div>
+		                    </div>
+				      				</div>
+				      				<div class="col-2 form-group">
+				      				<label>AGE</label><code>*</code>
+				      				<input class="form-control"type="text" placeholder="" disabled>
+				      				</div>
+				      				<div class="col-8 form-group">
+				      				<label>PLACE OF BIRTH</label><code>*</code>
+				      				<input class="form-control"type="text" placeholder="">
+				      				</div>
 				      				
 			      				</div><!--- ROW --->
 			      				<!------------><br>
@@ -103,23 +120,7 @@
 			      				</div>
 			      				<!------------><br>
 			      				<div class="row">
-				      				<div class="col-2">
-				      				<label>BIRTHDATE</label><code>*</code>
-					      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
-		                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
-		                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-		                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-		                        </div>
-		                    </div>
-				      				</div>
-				      				<div class="col-2">
-				      				<label>AGE</label><code>*</code>
-				      				<input class="form-control"type="text" placeholder="" disabled>
-				      				</div>
-				      				<div class="col-8">
-				      				<label>PLACE OF BIRTH</label><code>*</code>
-				      				<input class="form-control"type="text" placeholder="">
-				      				</div>
+				      				
 			      				</div>
 			      				<!------------><br>
 			      				<div class="row">
