@@ -52,14 +52,28 @@
 
 			      			<div class="card-body">
 			      				<div class="row">
-				      				<div class="col-sm-8">
+				      				<div class="col-md-4">
 				      					<div class="form-group">
 						      				<label>NATIONAL ID</label>
 						      				<input class="form-control"type="text" placeholder="" value="">
 						      			</div>
 				      				</div>
-				      				<div class="col-sm-4">
-				      				<div class="form-group">	
+				      				<div class="col-md-4">
+				      					<div class="form-group">
+						      				<label>SSS ID</label>
+						      				<input class="form-control"type="text" placeholder="" value="">
+						      			</div>
+				      				</div>
+				      				<div class="col-md-4">
+				      					<div class="form-group">
+						      				<label>TIN ID</label>
+						      				<input class="form-control"type="text" placeholder="" value="">
+						      			</div>
+				      				</div>
+
+				      				<!------------>
+				      				<div class="col-md-4">
+				      					<div class="form-group">	
 					      					<label>HEAD</label>
 						      				<select class="form-control select2" name="">
 													  <option value="">NO</option>
@@ -67,30 +81,35 @@
 													</select>
 												</div>
 				      				</div>
-				      				<!------------>
-				      				<div class="col-6 form-group">
+
+				      				<div class="col-md-8 form-group">
 				      				<label>FAMILY ID</label>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
-				      				<div class="col-6 form-group">
+				      				<div class="col-md-6 form-group">
+				      				<label>CONTACT NO</label><code>*</code>
+				      				<input class="form-control"type="text" placeholder="">
+				      				</div>
+
+				      				<div class="col-md-6 form-group">
 				      				<label>SOCIAL MEDIA LINK</label>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
 				      				<!------------><br>
-				      				<div class="col-12 form-group">
+				      				<div class="col-md-12 form-group">
 				      				<label>FIRST NAME</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
-				      				<div class="col-12 form-group">
+				      				<div class="col-md-12 form-group">
 				      				<label>MIDDLE NAME</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
-				      				<div class="col-12 form-group">
+				      				<div class="col-md-12 form-group">
 				      				<label>LAST NAME</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
-				      				<div class="col-6">
-				      				<label>BIRTHDATE</label><code>*</code>
+				      				<div class="col-md-6">
+				      				<label>BIRTHDATE</label><code>*</code>&nbsp;<i>mm/dd/yyyy</i>
 					      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
 		                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
 		                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
@@ -98,11 +117,11 @@
 		                        </div>
 		                    </div>
 				      				</div>
-				      				<div class="col-6 form-group">
-				      				<label>AGE</label><code>*</code>
+				      				<div class="col-md-6 form-group">
+				      				<label>AGE</label><code>*</code>&nbsp;<i>auto-compute</i>
 				      				<input class="form-control"type="text" placeholder="" disabled>
 				      				</div>
-				      				<div class="col-8 form-group">
+				      				<div class="col-md-8 form-group">
 				      				<label>PLACE OF BIRTH</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
@@ -232,11 +251,11 @@
 			      					<div class="col-md-4 form-group">
 				      					<label>INCOME per MONTH</label>
 					      				<select class="form-control select2" name="">
-												  <option value="">0-500</option>
-												  <option value="">501-5,000</option>
-												  <option value="">5001-25,000</option>
-												  <option value="">25,000-50,000</option>
-												  <option value="">50,000-500,000</option>
+												  <option value="">0 - 500</option>
+												  <option value="">500 - 5,000</option>
+												  <option value="">5000 - 25,000</option>
+												  <option value="">25,000 - 50,000</option>
+												  <option value="">50,000 - 500,000</option>
 												  <option value="">500,000+</option>
 												</select>
 			      					</div>
@@ -327,8 +346,8 @@
 					  	<div class="col">
 					  		<div class="card card-danger">
 					      	<div class="card-header">
-											<i class="fa fa-phone"></i> Emergency Contact
-					      			</div>
+									<i class="fa fa-phone"></i> Emergency Contact
+			      			</div>
 					      			<div class="card-body">
 					      					<div class="row">
 						      					<div class="col-md-6 form-group">
@@ -354,33 +373,150 @@
 
 					  <div class="row">
 					  	<div class="col">
-						  	<div class="card card-default">
-			      			<div class="card-body">
-			      				<div class="col-6">
-			      					<div class="row">
-				      					<div class="form-group">
-			                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-			                    <label class="form-check-label" for="exampleCheck1">I have read and agree to the <a href="#">Privacy Policy</a></label>
-			                  </div>
-			                  <br>
-			                  <div class="form-group">
-			                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-			                    <label class="form-check-label" for="exampleCheck1">I have verified that all information is true and correct</label>
-			                  </div>
-
-			                 	
-						      		
-		                	</div>
-						      		
-
-			      				</div>
+					  		<div class="card card-info">
+					      	<div class="card-header">
+									<i class="fa fa-syringe"></i> COVID-19 Vaccine Details
 			      			</div>
+					      			<div class="card-body">
+					      					<div class="row">
+						      					<div class="col-md-4 form-group">
+								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+									      				<select class="form-control select2" name="">
+									      					<option value=""></option>
+																  <option value="">Pfizer</option>
+																  <option value="">Astrazeneca</option>
+																  <option value="">Moderna</option>
+																  <option value="">Sinovac</option>
+																  <option value="">Johnson & Johnson's</option>
+																</select>
+							      				</div>
+
+							      				<div class="col-md-4 form-group">
+								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+									      				<select class="form-control select2" name="">
+									      					<option value=""></option>
+																  <option value="">1st Dose</option>
+																  <option value="">2nd Dose</option>
+																  <option value="">3rd Dose</option>
+																  <option value="">Booster Dose</option>
+																</select>
+							      				</div>
+
+						      					<div class="col-md-4 form-group">
+						      						<label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
+								      				<div class="input-group date" id="residencesince" data-target-input="nearest">
+				                        <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
+				                        <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
+				                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+				                        </div>
+				                    </div>
+						      					</div>
+
+						      					<div class="col-md-4 form-group">
+								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+									      				<select class="form-control select2" name="">
+									      					<option value=""></option>
+																  <option value="">Pfizer</option>
+																  <option value="">Astrazeneca</option>
+																  <option value="">Moderna</option>
+																  <option value="">Sinovac</option>
+																  <option value="">Johnson & Johnson's</option>
+																</select>
+							      				</div>
+
+							      				<div class="col-md-4 form-group">
+								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+									      				<select class="form-control select2" name="">
+									      					<option value=""></option>
+																  <option value="">1st Dose</option>
+																  <option value="">2nd Dose</option>
+																  <option value="">3rd Dose</option>
+																  <option value="">Booster Dose</option>
+																</select>
+							      				</div>
+
+						      					<div class="col-md-4 form-group">
+						      						<label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
+								      				<div class="input-group date" id="residencesince" data-target-input="nearest">
+				                        <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
+				                        <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
+				                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+				                        </div>
+				                    </div>
+						      					</div>
+
+						      					<div class="col-md-4 form-group">
+								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+									      				<select class="form-control select2" name="">
+									      					<option value=""></option>
+																  <option value="">Pfizer</option>
+																  <option value="">Astrazeneca</option>
+																  <option value="">Moderna</option>
+																  <option value="">Sinovac</option>
+																  <option value="">Johnson & Johnson's</option>
+																</select>
+							      				</div>
+
+							      				<div class="col-md-4 form-group">
+								      					<label>VACCINE MANUFACTURER</label><code>*</code>
+									      				<select class="form-control select2" name="">
+									      					<option value=""></option>
+																  <option value="">1st Dose</option>
+																  <option value="">2nd Dose</option>
+																  <option value="">3rd Dose</option>
+																  <option value="">Booster Dose</option>
+																</select>
+							      				</div>
+
+						      					<div class="col-md-4 form-group">
+						      						<label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
+								      				<div class="input-group date" id="residencesince" data-target-input="nearest">
+				                        <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
+				                        <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
+				                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+				                        </div>
+				                    </div>
+						      					</div>
+
+
+
+						      					
+						      				</div>
+						      				<br>
+					      			</div>
+				      		</div>
+				      	</div>
+
+					  </div>
+
+					  <div class="row">
+					  	<div class="col">
+						  	<div class="card card-secondary">
+						  		<div class="card-header">
+										<i class="fa fa-info"></i> Terms & Agreement
+			      			</div>
+			      			<div class="card-body">
+			      				
+				      					<div class="col-md-12">
+			                    <input type="checkbox" class="form-check-input form-group" id="exampleCheck1">
+			                    <label class="form-check-label" for="exampleCheck1">I have read and agreed to the <a href="#">Data Privacy Policy</a></label>
+			                  </div>
+			                  
+			                  <div class="col-md-12">
+			                    <input type="checkbox" class="form-check-input form-group" id="exampleCheck2">
+			                    <label class="form-check-label" for="exampleCheck2">I have confirmed that all information stated above is true and correct</label>
+			                  </div>
+
+			      			</div>
+
 			      			<div class="card-footer">
 			      				<a type="button" class="btn btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;Submit New Resident</a>
 			      			</div>
+
 			      		</div>
 						  </div>
 						</div>
+
 					</div>
 					
 				</section>
