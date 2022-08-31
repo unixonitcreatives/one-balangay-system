@@ -404,9 +404,9 @@
 
 						      					<div class="col-md-4 form-group">
 						      						<label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
-								      				<div class="input-group date" id="residencesince" data-target-input="nearest">
-				                        <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
-				                        <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
+								      				<div class="input-group date" id="vaccine1" data-target-input="nearest">
+				                        <input type="text" class="form-control datetimepicker-input" data-target="#vaccine1"/>
+				                        <div class="input-group-append" data-target="#vaccine1" data-toggle="datetimepicker">
 				                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
 				                        </div>
 				                    </div>
@@ -437,9 +437,9 @@
 
 						      					<div class="col-md-4 form-group">
 						      						<label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
-								      				<div class="input-group date" id="residencesince" data-target-input="nearest">
-				                        <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
-				                        <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
+								      				<div class="input-group date" id="vaccine2" data-target-input="nearest">
+				                        <input type="text" class="form-control datetimepicker-input" data-target="#vaccine2"/>
+				                        <div class="input-group-append" data-target="#vaccine2" data-toggle="datetimepicker">
 				                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
 				                        </div>
 				                    </div>
@@ -470,9 +470,9 @@
 
 						      					<div class="col-md-4 form-group">
 						      						<label>DATE</label> <i>mm/dd/yyyy</i><code>*</code>
-								      				<div class="input-group date" id="residencesince" data-target-input="nearest">
-				                        <input type="text" class="form-control datetimepicker-input" data-target="#residencesince"/>
-				                        <div class="input-group-append" data-target="#residencesince" data-toggle="datetimepicker">
+								      				<div class="input-group date" id="vaccine3" data-target-input="nearest">
+				                        <input type="text" class="form-control datetimepicker-input" data-target="#vaccine3"/>
+				                        <div class="input-group-append" data-target="#vaccine3" data-toggle="datetimepicker">
 				                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
 				                        </div>
 				                    </div>
@@ -549,6 +549,18 @@
     });
 
     $('#residencesince').datetimepicker({
+        format: 'L'
+    });
+
+    $('#vaccine1').datetimepicker({
+        format: 'L'
+    });
+
+    $('#vaccine2').datetimepicker({
+        format: 'L'
+    });
+
+    $('#vaccine3').datetimepicker({
         format: 'L'
     });
 
