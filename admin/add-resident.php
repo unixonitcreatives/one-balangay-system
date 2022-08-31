@@ -89,7 +89,7 @@
 				      				<label>LAST NAME</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
-				      				<div class="col-2">
+				      				<div class="col-6">
 				      				<label>BIRTHDATE</label><code>*</code>
 					      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
 		                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
@@ -98,11 +98,11 @@
 		                        </div>
 		                    </div>
 				      				</div>
-				      				<div class="col-2 form-group">
+				      				<div class="col-6 form-group">
 				      				<label>AGE</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="" disabled>
 				      				</div>
-				      				<div class="col-8 form-group">
+				      				<div class="col-12 form-group">
 				      				<label>PLACE OF BIRTH</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
