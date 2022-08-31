@@ -108,7 +108,7 @@
 				      				<label>LAST NAME</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
-				      				<div class="col-md-6">
+				      				<div class="col-md-6 form-group">
 				      				<label>BIRTHDATE</label><code>*</code>&nbsp;<i>mm/dd/yyyy</i>
 					      				<div class="input-group date" id="reservationdate" data-target-input="nearest">
 		                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
