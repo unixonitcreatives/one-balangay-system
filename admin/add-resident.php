@@ -515,7 +515,7 @@
 			      			</div>
 
 			      			<div class="card-footer">
-			      				<a href="" type="button" class="btn btn-success notif"><i class="fa fa-plus"></i>&nbsp;&nbsp;Submit New Resident</a>
+			      				<a type="submit" class="btn btn-success notif" id="test" onclick="this.disabled = true;"><i class="fa fa-plus"></i>&nbsp;&nbsp;Submit New Resident</a> <!-- BRO Disable mo buttons everytime mag input ng new record para di mkpg multiple inputs-->
 			      			</div>
 
 			      		</div>
@@ -533,6 +533,7 @@
 
 <script>
   $(function () {
+
     //Initialize Select2 Elements
     $('.select2').select2()
 
@@ -545,19 +546,26 @@
       toast: true,
       position: 'top-end',
       showConfirmButton: false,
-      /*timer: 3000
-      location:'resident.php';*/
+      timer: 3000
+      /*location:'resident.php';*/
     });
 
     $('.notif').click(function() {
       Toast.fire({
         icon: 'success',
-        title: 'Success!',
-        text: 'New record added.',
-        type: 'success'
-      })/*.then(function() {
-    	window.location = "resident.php";*/
+        text: 'New record added succesfully!',       
+      })
+
     });
+
+   $('#test').click (function (e) {
+   e.preventDefault(); //will stop the link href to call the blog page
+
+   setTimeout(function () {
+       window.location.href = "resident.php"; //will redirect to your blog page (an ex: blog.html)
+    }, 3000); //will call the function after 2 secs.
+
+		});
 
     //Datemask dd/mm/yyyy
     $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
