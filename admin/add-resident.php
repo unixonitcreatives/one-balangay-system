@@ -46,7 +46,7 @@
 						<div class="row">
 
 
-						      	<div class="col-md-12">
+						      	<div class="col-md-8">
 						      		<div class="card card-default">
 						      			<div class="card-header">
 												<h5><i class="fa fa-info-circle"></i> Personal Information</h5>
