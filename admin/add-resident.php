@@ -44,7 +44,7 @@
 				<section class="content">
 					<div class="container-fluid">
 						<div class="row">
-			      	<div class="col-6">
+			      	<div class="col">
 			      		<div class="card card-primary">
 			      			<div class="card-header">
 									<i class="fa fa-info-circle"></i> Personal Information
@@ -304,7 +304,7 @@
 						</div>
 
 					  <div class="row">
-					  	<div class="col-6">
+					  	<div class="col">
 					      		<div class="card card-success">
 					      			<div class="card-header">
 					      			<i class="fa fa-home"></i> Residency Permanent Address
@@ -371,7 +371,7 @@
 					  </div>
 
 					  <div class="row">
-					  	<div class="col-6">
+					  	<div class="col">
 					  		<div class="card card-danger">
 					      	<div class="card-header">
 											<i class="fa fa-phone"></i> Emergency Contact
@@ -402,7 +402,7 @@
 					  </div>
 
 					  <div class="row">
-					  	<div class="col-6">
+					  	<div class="col">
 						  	<div class="card card-default">
 			      			<div class="card-body">
 			      				<div class="col-6">
