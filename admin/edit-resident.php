@@ -109,7 +109,7 @@
                       <div class="col-md-4">
                         <div class="form-group">
                           <label>NATIONAL ID</label>
-                          <input class="form-control"type="text" placeholder="" value="">
+                          <input class="form-control"type="text" placeholder="" value="nka fill dapat ung data dito">
                         </div>
                       </div>
                       <div class="col-md-4">
