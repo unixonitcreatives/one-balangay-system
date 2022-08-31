@@ -93,12 +93,12 @@
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
 
-							      				<div class="col-md-6">
+							      				<div class="col-md-6 form-group">
 							      				<label>Tel No</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
 
-							      				<div class="col-md-6">
+							      				<div class="col-md-6 form-group">
 							      				<label>Contact No</label><code>*</code>
 							      				<input class="form-control"type="text" placeholder="">
 							      				</div>
