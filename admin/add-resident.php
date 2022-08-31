@@ -68,7 +68,7 @@
 												</div>
 				      				</div>
 				      				<!------------>
-				      				<div class="col-md-6 form-group">
+				      				<div class="col-6 form-group">
 				      				<label>FAMILY ID</label>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
@@ -106,6 +106,50 @@
 				      				<label>PLACE OF BIRTH</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
 				      				</div>
+
+				      				<div class="col-md-4 form-group">
+					      					<label>GENDER</label><code>*</code>
+						      				<select class="form-control select2" name="">
+													  <option value="Male">Male</option>
+													  <option value="Female">Female</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-4 form-group">
+					      					<label>CIVIL STATUS</label><code>*</code>
+						      				<select class="form-control select2" name="">
+													  <option value="">Single</option>
+													  <option value="">Married</option>
+													  <option value="">Widowed</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-4 form-group">
+					      					<label>NATIONALITY</label><code>*</code>
+						      				<select class="form-control select2" name="">
+													  <option value="">Filipino</option>
+													  <option value="">American</option>
+													  <option value="">Others</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-4 form-group">
+					      					<label>RELIGION</label><code>*</code>
+						      				<select class="form-control select2" name="">
+													  <option value="">Catholic</option>
+													  <option value="">Muslim</option>
+													  <option value="">None</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-4 form-group">
+					      					<label>EDUCATIONAL ATTAINMENT</label><code>*</code>
+						      				<select class="form-control select2" name="">
+													  <option value="">Elementary</option>
+													  <option value="">Secondary</option>
+													  <option value="">Vocational</option>
+													  <option value="">Bachelor's Degree</option>
+													  <option value="">Master's Degree</option>
+													  <option value="">PHD Degree</option>
+													  <option value="">None</option>
+													</select>
+				      				</div>
 				      				
 			      				</div><!--- ROW --->
 			      				<!------------><br>
@@ -124,59 +168,7 @@
 			      				</div>
 			      				<!------------><br>
 			      				<div class="row">
-			      					<div class="col-2">
-			      						<div class="form-group">	
-					      					<label>GENDER</label><code>*</code>
-						      				<select class="form-control select2" name="">
-													  <option value="Male">Male</option>
-													  <option value="Female">Female</option>
-													</select>
-												</div>
-				      				</div>
-				      				<div class="col-2">
-			      						<div class="form-group">	
-					      					<label>CIVIL STATUS</label><code>*</code>
-						      				<select class="form-control select2" name="">
-													  <option value="">Single</option>
-													  <option value="">Married</option>
-													  <option value="">Widowed</option>
-													</select>
-												</div>
-				      				</div>
-				      				<div class="col-3">
-			      						<div class="form-group">	
-					      					<label>NATIONALITY</label><code>*</code>
-						      				<select class="form-control select2" name="">
-													  <option value="">Filipino</option>
-													  <option value="">American</option>
-													  <option value="">Others</option>
-													</select>
-												</div>
-				      				</div>
-				      				<div class="col-2">
-			      						<div class="form-group">	
-					      					<label>RELIGION</label><code>*</code>
-						      				<select class="form-control select2" name="">
-													  <option value="">Catholic</option>
-													  <option value="">Muslim</option>
-													  <option value="">None</option>
-													</select>
-												</div>
-				      				</div>
-				      				<div class="col-3">
-			      						<div class="form-group">	
-					      					<label>EDUCATIONAL ATTAINMENT</label><code>*</code>
-						      				<select class="form-control select2" name="">
-													  <option value="">Elementary</option>
-													  <option value="">Secondary</option>
-													  <option value="">Vocational</option>
-													  <option value="">Bachelor's Degree</option>
-													  <option value="">Master's Degree</option>
-													  <option value="">PHD Degree</option>
-													  <option value="">None</option>
-													</select>
-												</div>
-				      				</div>
+
 				      				</div>
 				      				<!------------>
 				      				<div class="row">
