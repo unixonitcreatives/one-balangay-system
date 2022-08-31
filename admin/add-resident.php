@@ -423,12 +423,9 @@
 						      	</div>
 
 						  </div>
+						</div><br>
 
-
-					
-					</div><br>
-
-
+					</div>
 					
 				</section>
 		  </div>
