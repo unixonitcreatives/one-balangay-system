@@ -239,11 +239,11 @@
 						            </div>
 						            <div class="card-body">
 
-														<!-- <div class="alert alert-info alert-dismissible">
+														<div class="alert alert-warning alert-dismissible">
 									            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-									            <h5><i class="icon fas fa-info"></i> Deleting Admin Accounts</h5>
-									            If you want to delete an Admin Account, please contact technical support @ xxx xxxx xxxx
-									          </div> -->
+									            <h5><i class="icon fas fa-info"></i> Coming soon!</h5>
+									            System is still under development, this feature is coming soon! Please contact technical support @ xxx xxxx xxxx for more info.
+									       		</div>
 									   
 						            		<table id="example1" class="table table-striped">
 							                  <thead class=>
@@ -319,6 +319,91 @@
 							                    	<a type="button" title="Delete Account" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
 							                    </td>
 							                  </tr>
+
+							                  
+							                  </tbody>
+							                  <!-- <tfoot>
+							                  <tr>
+							                    <th>Rendering engine</th>
+							                    <th>Browser</th>
+							                    <th>Platform(s)</th>
+							                    <th>Engine version</th>
+							                    <th>CSS grade</th>
+							                  </tr>
+							                  </tfoot> -->
+							                </table>
+
+						            </div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-header">
+													 <h3 class="float-left">Emergency Hotline</h3>
+						               <a type="button" class="btn btn-success float-right" href="add-board-member.php"><i class="fa fa-plus"></i>&nbsp;Add New Hotline</a>
+						            </div>
+
+						            
+
+						            <div class="card-body">
+
+														<div class="alert alert-warning alert-dismissible">
+									            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+									            <h5><i class="icon fas fa-info"></i> Coming soon!</h5>
+									            System is still under development, this feature is coming soon! Please contact technical support @ xxx xxxx xxxx for more info.
+									       		</div>
+									   
+						            		<table id="example1" class="table table-striped">
+							                 
+							                  <tr>
+							                    <th>Department</th>
+							                    <th>Contact No 1:</th>
+							                    <th>Contact No 2:</th>
+							                    <th>Landline No:</th>
+							                    <th>Added by</th>
+							                    <th>Created at</th>
+
+							                    <th>Action</th>
+							                  </tr>
+							                  </thead>
+							                  <tbody>
+							                  <tr>
+							                    <td>Fire</td>
+							                    <td>1234 123 4567</td>
+							                    <td>1234 123 4567</td>
+	
+							                    <td>123-12345</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View Details" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete Hotline" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    <td>Police</td>
+							                    <td>1234 123 4567</td>
+							                    <td>1234 123 4567</td>
+	
+							                    <td>123-12345</td>
+							                    <td><strong>(ADMIN-0001)</strong> vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View Details" class="btn-sm btn-primary" href="#"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete Hotline" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    </td>
+							                  </tr>
+
+
+
+							                  
 
 							                  
 							                  </tbody>
