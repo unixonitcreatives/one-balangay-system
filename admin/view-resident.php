@@ -64,7 +64,7 @@
             <div class="card card-primary card-outline">
               <div class="card-body box-profile">
                 <div class="text-center">
-                  <img class="profile-user-img img-fluid img-circle"
+                  <img class="profile-user-img img-fluid img-square"
                        src="../dist/img/default-150x150.png"
                        alt="User profile picture">
                 </div>
@@ -361,9 +361,24 @@
                             <div class="col-md-6 form-group">
                                 <dl>
                                   <dt>HOME ADDRESS</dt>
-                                  <dd>asdasd</dd>
+                                  <dd>Blk 14 Lot 7</dd>
                                 </dl>
                             </div>
+
+                            <div class="col-md-6 form-group">
+                                <dl>
+                                  <dt>BUILDING</dt>
+                                  <dd></dd>
+                                </dl>
+                            </div>
+
+                            <div class="col-md-6 form-group">
+                                <dl>
+                                  <dt>STREET/AVENUE/HIWAY</dt>
+                                  <dd>New York St.</dd>
+                                </dl>
+                            </div>
+                            
                             <div class="col-md-6 form-group">
                                   <dl>
                                   <dt>AREA</dt>

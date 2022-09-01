@@ -68,10 +68,232 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-header">
-						               <a type="button" class="btn btn-success float-right" href="add-area.php"><i class="fa fa-plus"></i>&nbsp;Add new area</a>
+						               <a type="button" class="btn btn-success float-right" href="add-area.php"><i class="fa fa-plus"></i>&nbsp;Add new streets</a><h4>Streets/Avenue/Hiway List</h4>
 						            </div>
 						            <div class="card-body">
-						            		<table id="example1" class="table table-striped">
+						            		<table id="tbl_streets" class="table table-striped">
+							                  <thead class=>
+							                  <tr>
+							                    
+							                    <th>Category</th>
+							                    <th>Description</th>
+							                    <th>Created by</th>
+							                    <th>Created at</th>
+
+							                    <th>Action</th>
+							                  </tr>
+							                  </thead>
+							                  <tbody>
+							                  <tr>
+							                    
+							                    <td>Street</td>
+							                    <td>New York St.</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    
+							                    <td>Avenue</td>
+							                    <td>Hollywood Ave.</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    
+							                    <td>Highway</td>
+							                    <td>National Hi-way</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    
+							                    <td>Street</td>
+							                    <td>California St.</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    
+							                    <td>Street</td>
+							                    <td>London St.</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+						                  
+							                  
+							                  </tbody>
+							                  <!-- <tfoot>
+							                  <tr>
+							                    <th>Rendering engine</th>
+							                    <th>Browser</th>
+							                    <th>Platform(s)</th>
+							                    <th>Engine version</th>
+							                    <th>CSS grade</th>
+							                  </tr>
+							                  </tfoot> -->
+							                </table>
+
+						            </div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-header">
+						               <a type="button" class="btn btn-success float-right" href="add-area.php"><i class="fa fa-plus"></i>&nbsp;Add new building</a><h4>Building List</h4>
+						            </div>
+						            <div class="card-body">
+						            		<table id="tbl_streets" class="table table-striped">
+							                  <thead class=>
+							                  <tr>
+							                    
+							                    <th>Category</th>
+							                    <th>Description</th>
+							                    <th>Created by</th>
+							                    <th>Created at</th>
+
+							                    <th>Action</th>
+							                  </tr>
+							                  </thead>
+							                  <tbody>
+							                  <tr>
+							                    
+							                    <td>Condominium</td>
+							                    <td>Hollywood Condo</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    
+							                    <td>Condominium</td>
+							                    <td>SMDC Shell Residence</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    
+							                    <td>Apartment</td>
+							                    <td>Zen Pod Apartment</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    
+							                    <td>Apartment</td>
+							                    <td>RDuterte Homes</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+
+							                  <tr>
+							                    
+							                    <td>Condominuim</td>
+							                    <td>Avida Tower</td>
+							                    <td>vince</td>
+							                    <td>08-30-2022 02:00:00</td>
+							                    <td>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+
+
+							                    </td>
+							                  </tr>
+						                  
+							                  
+							                  </tbody>
+							                  <!-- <tfoot>
+							                  <tr>
+							                    <th>Rendering engine</th>
+							                    <th>Browser</th>
+							                    <th>Platform(s)</th>
+							                    <th>Engine version</th>
+							                    <th>CSS grade</th>
+							                  </tr>
+							                  </tfoot> -->
+							                </table>
+
+						            </div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+
+										<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-header">
+						               <a type="button" class="btn btn-success float-right" href="add-area.php"><i class="fa fa-plus"></i>&nbsp;Add new area</a><h4>Area List</h4>
+						            </div>
+						            <div class="card-body">
+						            		<table id="tbl_area" class="table table-striped">
 							                  <thead class=>
 							                  <tr>
 							                    
@@ -91,9 +313,8 @@
 							                    <td>vince</td>
 							                    <td>08-30-2022 02:00:00</td>
 							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Residents" class="btn-sm btn-primary" href="resident.php"><i class="fa fa-users"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
 
 
 							                    </td>
@@ -106,8 +327,8 @@
 							                    <td>vince</td>
 							                    <td>08-30-2022 02:00:00</td>
 							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
 
 
 							                    </td>
@@ -120,8 +341,8 @@
 							                    <td>vince</td>
 							                    <td>08-30-2022 02:00:00</td>
 							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
 
 
 							                    </td>
@@ -129,13 +350,13 @@
 
 							                  <tr>
 							                    
-							                    <td>Purok</td>
-							                    <td>Purok 4</td>
+							                    <td>Sitio</td>
+							                    <td>Sitio Marangal</td>
 							                    <td>vince</td>
 							                    <td>08-30-2022 02:00:00</td>
 							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
 
 
 							                    </td>
@@ -143,13 +364,13 @@
 
 							                  <tr>
 							                    
-							                    <td>Purok</td>
-							                    <td>Purok 5</td>
+							                    <td>Zone</td>
+							                    <td>Zone 5</td>
 							                    <td>vince</td>
 							                    <td>08-30-2022 02:00:00</td>
 							                    <td>
-							                    	<a type="button" title="View Area" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
-							                    	<a type="button" title="Delete Area" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
+							                    	<a type="button" title="View" class="btn-sm btn-primary" href="view-area.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="Delete" class="btn-sm btn-danger" href="#"><i class="fa fa-trash"></i></a>
 
 
 							                    </td>
@@ -185,11 +406,16 @@
 
 <script>
   $(function () {
-    $("#example1").DataTable({
+    $("#tbl_streets").DataTable({
       "responsive": true, "lengthChange": true, "autoWidth": true,
       "buttons": ["excel", "pdf", "print"]
     }).buttons().container().appendTo('#example1_wrapper .col-md-12:eq(0)');
     
+    $("#tbl_area").DataTable({
+      "responsive": true, "lengthChange": true, "autoWidth": true,
+      "buttons": ["excel", "pdf", "print"]
+    }).buttons().container().appendTo('#example1_wrapper .col-md-12:eq(0)');
+
     $('#example2').DataTable({
       "paging": true,
       "lengthChange": true,

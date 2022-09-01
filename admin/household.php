@@ -60,7 +60,7 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-header">
-						               <a type="button" class="btn btn-success float-right" href="add-resident.php"><i class="fa fa-	home"></i>&nbsp;+ Add new families</a>
+						               <a type="button" class="btn btn-success float-right" href="add-resident.php"><i class="fa fa-plus"></i>&nbsp; Add new household</a>
 						            </div>
 						            <div class="card-body">
 						            		<div class="alert alert-warning alert-dismissible">

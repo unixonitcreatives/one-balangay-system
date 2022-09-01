@@ -288,12 +288,24 @@
 					      			<div class="card-body">
 					 
 					      				<div class="row">
-						      					<div class="col-md-4 form-group">
+						      					<div class="col-md-6 form-group">
 						      						<label>HOME ADDRESS</label><code>*</code>
 								      				<input class="form-control"type="text" placeholder="">
 						      					</div>
 
-						      					<div class="col-md-4 form-group">
+						      					<div class="col-md-6 form-group">
+								      					<label>BUILDING</label><code>*</code>
+									      				<select class="form-control select2" name="">
+																  <option value=""></option>
+																  <option value="">Hollywood Condo</option>
+																  <option value="">SMDC Shell Residence</option>
+																  <option value="">Zen Pod Apartment</option>
+																  <option value="">RDuterte Homes</option>
+																  <option value="">Avida Tower</option>
+																</select>
+							      				</div>
+
+						      					<div class="col-md-6 form-group">
 								      					<label>STREE/AVE/BLDG</label><code>*</code>
 									      				<select class="form-control select2" name="">
 																  <option value="">New York St.</option>
@@ -305,7 +317,9 @@
 																</select>
 							      				</div>
 
-						      					<div class="col-md-4 form-group">
+							      				
+
+						      					<div class="col-md-6 form-group">
 								      					<label>AREA</label><code>*</code>
 									      				<select class="form-control select2" name="">
 																  <option value="">Purok 1</option>
