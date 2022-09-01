@@ -90,6 +90,7 @@
 																	<td></td>
 							                    <td>
 							                    	<a type="button" title="View Resident" class="btn-sm btn-primary" href="view-resident.php"><i class="fa fa-search"></i></a>
+							                    	<a type="button" title="View Household" class="btn-sm btn-primary" href="view-household.php"><i class="fa fa-home"></i></a>
 							                    	<a type="button" title="Print Certificate" class="btn-sm btn-success" href="#" data-toggle="modal" data-target="#modal-default"><i class="fa fa-file"></i></a>
 							                    	
 							                    </td>

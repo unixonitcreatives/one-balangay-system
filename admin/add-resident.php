@@ -72,20 +72,19 @@
 				      				</div>
 
 				      				<!------------>
-				      				<div class="col-md-4">
+				      				<div class="col-md-12">
 				      					<div class="form-group">	
-					      					<label>HEAD</label>
+					      					<label>HOUSEHOLD ID</label>
 						      				<select class="form-control select2" name="">
-													  <option value="">NO</option>
-													  <option value="">YES</option>
+						      					<option value=""></option>
+													  <option value="">HH-01 - Juan Dela Cruz</option>
+													  <option value="">HH-02 - Raffy Tulfo</option>
+													  <option value="">HH-03 - Andres Bonifacio</option>
+													  <option value="">HH-04 - Apolinario Mabini</option>
 													</select>
 												</div>
 				      				</div>
 
-				      				<div class="col-md-8 form-group">
-				      				<label>FAMILY ID</label>
-				      				<input class="form-control"type="text" placeholder="">
-				      				</div>
 				      				<div class="col-md-6 form-group">
 				      				<label>CONTACT NO</label><code>*</code>
 				      				<input class="form-control"type="text" placeholder="">
@@ -289,11 +288,24 @@
 					      			<div class="card-body">
 					 
 					      				<div class="row">
-						      					<div class="col-md-6 form-group">
+						      					<div class="col-md-4 form-group">
 						      						<label>HOME ADDRESS</label><code>*</code>
 								      				<input class="form-control"type="text" placeholder="">
 						      					</div>
-						      					<div class="col-md-6 form-group">
+
+						      					<div class="col-md-4 form-group">
+								      					<label>STREE/AVE/BLDG</label><code>*</code>
+									      				<select class="form-control select2" name="">
+																  <option value="">New York St.</option>
+																  <option value="">New Jersey St.</option>
+																  <option value="">California St.</option>
+																  <option value="">Arizona St.</option>
+																  <option value="">Honeywood Condominum</option>
+																  <option value="">Zen Apartment</option>
+																</select>
+							      				</div>
+
+						      					<div class="col-md-4 form-group">
 								      					<label>AREA</label><code>*</code>
 									      				<select class="form-control select2" name="">
 																  <option value="">Purok 1</option>
