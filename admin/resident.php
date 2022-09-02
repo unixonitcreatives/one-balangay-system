@@ -60,6 +60,188 @@
 							<div class="col-12">
 								<div class="card">
 									<div class="card-header">
+										<i class="fa fa-search"></i> Search
+									</div>
+									<div class="card-body">
+										<div class="row">
+
+											<div class="col-md-12 form-group">
+					      				<label>Type something</label>&nbsp;<i></i>
+					      				<input class="form-control"type="text" placeholder="(Resident ID, First/Last Name, National/SSS/TIN ID, Family ID, Voter's ID)" value="">
+				      				</div>
+
+				      				<div class="col-md-2 form-group">
+					      				<label>Age Group</label>
+						      				<input class="form-control"type="number" placeholder="from" value="">
+				      				</div>
+				      				<div class="col-md-2 form-group">
+					      				<label>Age Group</label>
+						      				<input class="form-control"type="number" placeholder="to" value="">
+				      				</div>
+
+				      				<div class="col-md-2 form-group">
+					      				<label>Gender</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="Male">Male</option>
+													  <option value="Female">Female</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2 form-group">
+				      					<label>Civil Status</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="">Single</option>
+													  <option value="">Married</option>
+													  <option value="">Widowed</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2">
+					      				<label>Nationality</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="">Filipino</option>
+													  <option value="">American</option>
+													  <option value="">Others</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2 form-group">
+					      				<label>Religion</label>
+						      				<select class="form-control select2" name="">
+													  <option value="">Catholic</option>
+													  <option value="">Muslim</option>
+													  <option value="">None</option>
+													</select>
+				      				</div>
+
+	
+
+				      				<div class="col-md-2 form-group">
+					      				<label>Voter Status</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="Male">Registered</option>
+													  <option value="Female">Unregistered</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2 form-group">
+				      					<label>PWD</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="">YES</option>
+													  <option value="">NO</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2">
+					      				<label>4P's</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="">YES</option>
+													  <option value="">NO</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2 form-group">
+					      				<label>Youth Member</label>
+						      				<select class="form-control select2" name="">
+													  <option value=""></option>
+													  <option value="">YES</option>
+													  <option value="">NO</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2">
+					      				<label>Blood Type</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="">O</option>
+													  <option value="">A</option>
+													  <option value="">B</option>
+													  <option value="">AB</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2 form-group">
+					      				<label>Blood Donor?</label>
+						      				<select class="form-control select2" name="">
+													  <option value=""></option>
+													  <option value="">YES</option>
+													  <option value="">NO</option>
+													</select>
+				      				</div>
+
+				      				<div class="col-md-2 form-group">
+					      				<label>Home Address</label>
+													<input class="form-control"type="text" placeholder="" value="">
+											</div>
+
+				      				<div class="col-md-2 form-group">
+				      					<label>Building</label>
+						      				<select class="form-control select2" name="">
+													  <option value=""></option>
+													  <option value="">Hollywood Condo</option>
+													  <option value="">SMDC Shell Residence</option>
+													  <option value="">Zen Pod Apartment</option>
+													  <option value="">RDuterte Homes</option>
+													  <option value="">Avida Tower</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2">
+					      				<label>Street</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="">New York St.</option>
+													  <option value="">New Jersey St.</option>
+													  <option value="">California St.</option>
+													  <option value="">Arizona St.</option>
+													  <option value="">Honeywood Condominum</option>
+													  <option value="">Zen Apartment</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2 form-group">
+					      				<label>Area</label>
+						      				<select class="form-control select2" name="">
+													  <option value=""></option>
+													  <option value="">Purok 1</option>
+													  <option value="">Purok 2</option>
+													  <option value="">Purok 3</option>
+													  <option value="">Purok 4</option>
+													  <option value="">Purok 5</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2">
+					      				<label>Residency Status</label>
+						      				<select class="form-control select2" name="">
+						      					<option value=""></option>
+													  <option value="">Permanent</option>
+													  <option value="">Temporary</option>
+													</select>
+				      				</div>
+				      				<div class="col-md-2 form-group">
+					      				<label>COVID-19 Vaccine</label>
+						      				<select class="form-control select2" name="">
+													  <option value=""></option>
+													  <option value="">YES</option>
+													  <option value="">NO</option>
+													</select>
+				      				</div>
+
+
+				      			</div><!-- ./row -->
+				      			
+									</div><!-- ./card -->
+									<div class="card-footer">
+				      				<a type="submit" class="btn btn-primary float-right" id="test" onclick="this.disabled = true;"><i class="fa fa-search"></i>&nbsp;&nbsp;Search</a> <!-- BRO Disable mo buttons everytime mag input ng new record para di mkpg multiple inputs-->
+				      			</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-header">
 						               <a type="button" class="btn btn-success float-right" href="add-resident.php"><i class="fa fa-user-plus"></i>&nbsp;Add new resident</a>
 						            </div>
 						            <div class="card-body">
