@@ -96,7 +96,7 @@
 													  <option value="">Widowed</option>
 													</select>
 				      				</div>
-				      				<div class="col-md-2">
+				      				<div class="col-md-2 form-group">
 					      				<label>Nationality</label>
 						      				<select class="form-control select2" name="">
 						      					<option value=""></option>
